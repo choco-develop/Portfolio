@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
  box-sizing: border-box;
 }
@@ -8,52 +11,111 @@ body{
     color:black
 }
 header{
-    background: black;
-    height: 8vh;
-    color  :goldenrod;;
-    margin-bottom: -3%;
+    max-width: 95%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    color  :black;
+ /*   background: #f9f2ec;*/
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 2px 5px 0px rgb(152, 155, 179);
+    z-index: 1;
+    position: relative; 
+     
+}
+header span{
+   
+    font-size: 1rem;
+    position: absolute;
+    z-index: 1;
+    left: 5%;    
+}
+header span img{
+    object-fit: cover;
+    max-width: 11%;
+    margin-top: -14%;
+}
 
-}
-header nav span{
-    display: flex;
-    font-size: 1rem;
-    
-}
 header nav ul {
-    display: flex;
-    gap: 8%;
-    justify-content:flex-end ;
+  display: flex;
+  gap: 20%;
     font-size: 1rem;
+    right: 20%;
+    position: absolute;
+    color: #ffffff;
+    padding-top: 0.5rem;
+
+
 }
 header nav ul li{
     list-style-type: none;
+    
+}
+header nav ul li{
+    border-left: 0.1rem solid whitesmoke;
+    padding-left: 0.1rem;
 }
 /******MAIN**/
+#background{
+   /* background-color: #f9f2ec;*/
+   background-color: black;
+    max-width: 90%;
+    margin:2.5% auto 5% auto;
+}
 main {
     height: 80vh;
-    background-image: url("../images/background\ \(2\).gif");
+    background-image: url("../images/white.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
     background-position: center center;
+   
     font-size: 1.3rem;
-    margin: auto;
+    max-width: 90%;
+    margin:-3% auto 5% auto;
+    border-top-left-radius: 20rem;
+    border-bottom-right-radius: 20rem;
+    clip-path:polygon(0 0, 100% 0, 100% 100%,0 100%);
+    position: relative; 
+    box-shadow: 0 3px 10px rgb(8, 12, 19);
 
 }
 main h1,main span{
-    padding-top: 15%;
+    padding-top: 12rem;
     padding-right: 30%;
     padding-left: 5%;
+    margin-bottom: 10rem;
+    font-size: 1.8rem;
+}
+
+main span{
+   
+    background-color:#52483f;
+    /*color:#A4B0FF;*/
+    font-size: 0.9rem;
+    color: whitesmoke;
+    padding: 0.5rem;
+    margin-left: 10%;
+    margin-bottom: auto;
+    box-shadow: 0 3px 10px rgb(212, 214, 218);
     
 }
-main span{
-    background-color: white;
-    color: black;
-    padding: 0%;
-    margin-left: 10%;
-    border: 2.5vh solid white;
-    border-radius: 10%;
+/***side skills*/
+#side ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    color: black;;
 }
+ 
+/*.skills ul li{
+    padding-bottom: 22%;
+    padding-top: 10%;
+   
+}*/
+
 
 
 /**About*/
@@ -62,39 +124,29 @@ h2{
     font-size: 1.3rem;
     font-weight: 900;
     padding-top: 2%;
-    
+    color:black;
     padding-bottom: 0%;
+
    
 }
 #about{
+    color: #f8f8f4;
     width: 90%;
     font-size: 1.5rem;
-    margin:2% auto;
+    margin:5% auto;
     padding-top: 3%;
     background-color: white;
     color: black;
-    box-shadow: 10px 10px 5px 0px black;
+    box-shadow: -2px -3px 5px 0px #515368;
     grid-column: 1/4;
     height: auto;
+    background-color: whitesmoke;
 }
-
-#side{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    margin-top: -15%;
-    padding-top:3%;
-   
-}
- .skills{
-    border-left: 0.5vh solid black;
-    margin-top: -1%;
-    font-size: 2rem;
-}
-.skills ul li{
-    padding-bottom: 22%;
-    padding-top: 10%;
-   
+#about h2{
+    top:97%;
+    position: absolute;
+    left: 48%;
+    
 }
 
 
@@ -103,10 +155,12 @@ h2{
     height: 52vh;
     max-width:25%;
     float: left;
+   
 }
 #about h3{
 font-size: 1.3rem;
-    margin-bottom: 5%;
+margin-bottom: 5%;
+margin-top: 5%;
 }
 
 #about h3 li{
@@ -167,10 +221,7 @@ font-size: 1.3rem;
    color: black;
    margin-top: 0%;
 }
-#ageCalculator>span{
- padding-top: 15%;
-    
-}
+
 #more{
     background-color: black;
     color: white;
@@ -183,7 +234,7 @@ font-size: 1.3rem;
 
 /****footer*/
 footer{
-    background-color: black;
+    background-color:black;
     color: white;
     height: 15vh;
     display:flex ;
