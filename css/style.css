@@ -1,71 +1,83 @@
-html{
+html {
     scroll-behavior: smooth;
 }
-*{
- box-sizing: border-box;
+
+* {
+    box-sizing: border-box;
 }
-body{
+
+body {
     font-size: 62.5%;
-   justify-content: center;
-   align-content: center;
-    color:black
+    justify-content: center;
+    align-content: center;
+    color: black
 }
-header{
+
+header {
     max-width: 100%;
     height: 5vh;
     display: flex;
     justify-content: space-evenly;
-    color  :black;
- /*   background: #f9f2ec;*/
+    color: black;
+    /*   background: #f9f2ec;*/
     background-color: black;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0px 2px 5px 0px rgb(152, 155, 179);
     z-index: 1;
-    position: relative; 
-     
+    position: relative;
+
 }
-header span{
-   
+
+header span {
+
     font-size: 1.2rem;
     position: absolute;
     z-index: 1;
-    left: 5%;  
-    color: orange;  
+    left: 5%;
+    color: orange;
     margin-top: 0.5%;
+    
+}
+header span,footer div {
     font-family: 'Alex Brush';
-
 }
 
 
 header nav ul {
-  display: flex;
-  gap: 20%;
+    display: flex;
+    gap: 20%;
     font-size: 0.8rem;
     right: 22%;
     position: absolute;
-    color: #ffffff;
+    color: rgb(243, 136, 4);
     padding-top: 0.5rem;
 
 
 }
-header nav ul li{
+
+header nav ul li {
     list-style-type: none;
     font-family: 'Nunito Sans';
     padding-left: 0.1rem;
-    
+
 }
-header nav ul li +li{
+
+header nav ul li+li {
     border-left: 0.1rem solid whitesmoke;
-    
 }
+
+
 /******MAIN**/
-#background{
-    background-color: black;
-    max-width: 100%;
-    margin:2.5% auto 5% auto;
-    /*box-shadow: 1px 3px 10px rgb(219, 224, 232);*/
+#background {
+    background-color: white;
+    max-width: 85%;
+    margin: 2.5% auto 5% auto;
+    box-shadow: 0px 2px 3px rgb(10, 17, 29);
+    border-bottom-left-radius: 4rem;
+    border-top-right-radius: 4rem;
 }
+
 main {
     height: 80vh;
     background-image: url("../images/white.gif");
@@ -74,37 +86,45 @@ main {
     background-attachment: scroll;
     background-position: center center;
     font-size: 1.3rem;
-    max-width: 100%;
-    margin:-3% auto 5% auto;
-   border-top-left-radius: 20rem;
+    max-width: 90%;
+    margin: -3% auto 5% auto;
+    border-top-left-radius: 20rem;
     border-bottom-right-radius: 20rem;
-    /* clip-path:polygon(0 0, 100% 0, 100% 100%,0 75%);*/
-   clip-path:polygon(0 0, 100% 0, 100% 100%,0 100%);
-    position: relative; 
-    box-shadow: 1px 3px 10px rgb(219, 224, 232);
+    border-left: -0.02vh solid #6d7284;
+    border-right: -0.02vh solid #8a89aa;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    position: relative;
+    box-shadow: 4px -3px 10px #111010;
 
 }
-main h1,main span{
+
+main h1 {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 1.5rem;
+}
+
+main h1,
+main span {
     padding-top: 12rem;
     padding-right: 30%;
     padding-left: 5%;
-    margin-bottom: 10rem;
+    margin-bottom: 7rem;
     font-size: 1.8rem;
 }
 
-main span{
-   
-    background-color:#52483f;
-    /*color:#A4B0FF;*/
+main span {
+
+    background-color: #040404;
+    
     font-size: 0.9rem;
     color: whitesmoke;
     padding: 0.5rem;
     margin-left: 10%;
     margin-bottom: auto;
-   /* box-shadow: 0 3px 10px rgb(212, 214, 218);*/
-   box-shadow: 0 3px 10px #1675d4;
-    
+    /*box-shadow: 0 3px 10px #9c8e8e;*/
+
 }
+
 
 /*.skills ul li{
     padding-bottom: 22%;
@@ -115,84 +135,94 @@ main span{
 
 
 /**About*/
-h2{
-   text-shadow: #ee6e0c;
-    font-size: 1.3rem;
+h2 {
+
+    font-size: 1.1rem;
     font-weight: 900;
     padding-top: 2%;
-    color:black;
+    color: black;
     padding-bottom: 0.2rem;
     border-bottom: 0.1vh solid black;
-    width:fit-content;
     position: relative;
-    
-   
-    
-    
-   
-
-   
 }
-#about{
+
+#about {
     color: #f8f8f4;
-    width: 90%;
+    width: 75%;
     font-size: 1.5rem;
-    margin:5% auto;
-    padding: 3% 0 auto 0;
-    background-color: white;
+    margin: 5% auto;
     color: black;
-    box-shadow: 2px 1px 5px 0px #000000;
+    /*box-shadow: 2px 1px 5px 0px #000000;*/
     grid-column: 1/4;
-    height: 65vh;
+    height: 55vh;
     background-color: #ffffff;
-   
-  
-}
-#about h2{
-    right: -45%;    
+    border-left: 0.1vh solid #8a89aab3;
+    border-right: 0.02vh solid #8a89aab3;
+
 }
 
+#about h2 {
+    right: -45%;
+    width: fit-content;
+}
 
-#about img{
+#about img {
+    display: none;
+}
+
+/*#about img{
     margin: -5% 5% 5% 5%;
     height: 52vh;
     max-width:25%;
     float: left;
    
-}
-#about h3{
-font-size: 1.2rem;
-margin-bottom: 5%;
-margin-top: 5%;
-font-family: 'Merriweather', serif;
-font-weight: 100;
+}*/
+#about h3 {
+    margin: 2rem;
+    font-size: 1.2rem;
+    /*margin-bottom: 5%;
+      margin-top: 5%;*/
+
+
 
 }
-
-
 
 /***side skills*/
-#side ul{
+#side ul {
     display: flex;
     justify-content: space-evenly;
-    font-size: 2rem;
-    color: black;
+    font-size: 3.5rem;
+
     padding-top: 5rem;
 }
-#side ul li{
+
+#side ul li {
     box-shadow: 0 3px 10px #a17a69;
     border-radius: 0.4rem;
+
 }
-#about+h2{
-    right: -45%;
+
+#h2Services {
+    max-width: 100%;
+    border: none;
+    /*border-bottom: 0.01rem solid rgb(243, 136, 4);*/
+    text-align: center;
+    margin-bottom: 2rem;
 }
- 
+
 /*****ourServices***/
-#ourServices,#ourServices2{
+#ourServices {
+
+    padding-top: 2rem;
+}
+
+#ourServices,
+#ourServices2 {
     display: flex;
     justify-content: space-around;
 }
-#ourServices2 div{
+
+#ourServices2 div {
     background-color: #000000;
     color: whitesmoke;
     box-shadow: 0 3px 10px #a17a69;
@@ -200,121 +230,209 @@ font-weight: 100;
     border: 0.1vh solid;
     border-radius: 2rem;
 }
-#ourServices div img{
+
+#ourServices div img {
     width: 4rem;
     object-fit: cover;
 }
-#ourServices2{
+
+#ourServices2 {
     font-size: 1.5rem;
     text-align: center;
+    padding-bottom: 6rem;
     margin-bottom: 6rem;
+    border-bottom: 0.15vh solid rgb(243, 136, 4);
+
 }
-#ourServices2+h2{
-    right: -45%;
-}
-section +h2{
-    margin-bottom: 3rem;
-}
+
+/*#ourServices2+h2 {
+   
+   
+   
+    border-bottom: none;
+    p: center;
+}*/
+
+
 /**PROJECTS*/
-#projects,#projects2{
+#h2Projects {
+    position: relative;
+    right: -43%;
+    width: fit-content;
+    
+}
+
+#projects,
+#projects2 {
     display: flex;
     justify-content: space-around;
     margin-top: 5%;
-    
+
 }
 
-.projects{
+.projects {
     border: 0.1vh solid black;
     border-radius: 2rem;
     display: grid;
-    grid-gap:3vh;
+    grid-gap: 3vh;
     width: 20%;
     height: 30rem;
     align-content: center;
-    text-align:center ;
+    text-align: center;
     margin-bottom: 3%;
     box-shadow: 0 3px 10px #a17a69;
+    background-color: #000000;
 
 }
 
-.projects img{
+.projects img {
     max-width: 100%;
     display: block;
-   /* max-width: 100%;
+    /* max-width: 100%;
     height: 40vh;
     object-fit: contain;*/
 }
-.projects span{
-    padding-top: 15rem;
+
+.projects span {
+    padding-top: 22rem;
     font-size: 1.2rem;
-    color: whitesmoke;
+    /*color: whitesmoke;*/
+    color: aliceblue;
 }
 
-.projects#resturant .links a,.projects#salon .links a{
+.projects#resturant .links a,
+.projects#salon .links a {
     margin-bottom: 0;
 }
-.projects .tools{
-    
+
+.projects .tools {
+
     padding-top: 5%;
     
 }
-.projects .tools+.tools{
+
+.projects .tools+.tools {
     border: none;
 }
-.projects .tools span{
-    
+
+.projects .tools span {
+
     font-size: 0.75rem;
     margin-left: 5%;
     padding: 1%;
-    color: whitesmoke;
-   
-   
+   color: aliceblue;
 }
-.projects .links{
+
+.projects .links {
     font-size: 1rem;
-   display: flex;
-   justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
    
 }
-.links a{
+
+
+.links a {
+    background-color: #040404;
     text-decoration: none;
-   color: rgb(243, 136, 4);
-   margin-top: 0%;
+    color: rgb(243, 136, 4);
+    margin-top: 0%;
+    padding: 0.2rem;
 }
-.projects{
-    background-color: #000000;
+section#black{
+    background-color: #040404;
+
 }
-#more{
+#resturant{
+    background-image: url(../images/cuisine.png);
+    background-size:cover cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+#salon{
+    background-image: url(../images/saloon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+#alphabet{
+    background-image: url(../images/a-z.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+#more {
     background-color: black;
     color: white;
-   /* box-shadow:0.3rem 0.2rem black ,-0.3rem -0.2rem #ccc;*/
-   position: relative;
+    /* box-shadow:0.3rem 0.2rem black ,-0.3rem -0.2rem #ccc;*/
+    position: relative;
     right: -47%;
     font-size: 1.0rem;
     padding: 0.6%;
 }
+
 /****BLOGS***/
-#blogs{
+#blogs {
     margin-top: 2rem;
 }
-#blogs h2{
-    right: -47.3%;
+
+#blogs h2 {
+    right: -48%;
+    width: fit-content;
 }
 
 /****footer*/
-footer{
-    background-color:black;
-    color: white;
-    height: 15vh;
-    display:flex ;
-  align-items: center;
-  justify-items: center;
-  justify-content: space-around;
-    gap: 5%;
-    font-size: 1.8rem;
-   
-  
+footer  {
+    background-color: black;
+    height: auto;
 }
-footer i{
-    padding: auto 4%;
+footer ul{
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    color: white;
+}
+#copyright{
+   
+    text-align: center;
+    color: orange;
+    margin-left: -4rem;
+   
+}
+footer div i{
+    font-size: 0.9rem;
+}
+footer span{
+    font-size:0.9rem ;
+    font-family: 'Alex Brush';
+}
+footer ul i {
+    margin: 2rem;
+    padding: auto 2rem;
+}
+
+
+
+
+
+
+/*********HOVER**********/
+/****header****/
+header ul li:hover {
+    color: bisque;
+    ;
+}
+
+/**main****/
+main span:hover {
+    background-color: #ffffff;
+    color: black;
+}
+#side ul li:hover{
+   font-size: 4rem;
+}
+#more:hover{
+    opacity: 0.6;
+}
+.projects:hover{
+    opacity: 0.7;
 }
