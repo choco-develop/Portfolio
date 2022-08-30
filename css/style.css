@@ -12,7 +12,17 @@ body {
     align-content: center;
     color: black
 }
+h2 {
 
+    font-size: 1.1rem;
+    font-weight: 900;
+    padding-top: 2%;
+    color: black;
+    padding-bottom: 0.2rem;
+    border-bottom: 0.1vh solid black;
+    position: relative;
+}
+/*****HEaDAer****/
 header {
     max-width: 100%;
     height: 5vh;
@@ -37,9 +47,11 @@ header span {
     left: 5%;
     color: orange;
     margin-top: 0.5%;
-    
+
 }
-header span,footer div {
+
+header span,
+footer div {
     font-family: 'Alex Brush';
 }
 
@@ -70,17 +82,17 @@ header nav ul li+li {
 
 /******MAIN**/
 #background {
-    background-color: white;
-    max-width: 85%;
     margin: 2.5% auto 5% auto;
-    box-shadow: 0px 2px 3px rgb(10, 17, 29);
-    border-bottom-left-radius: 4rem;
-    border-top-right-radius: 4rem;
+    /*background-color:whitesmoke;
+    max-width: 85%;
+    box-shadow: 0px 2px 3px rgb(10, 17, 29);*/
+    /* border-bottom-left-radius: 4rem;
+   border-top-right-radius: 4rem;*/
 }
 
 main {
     height: 80vh;
-    background-image: url("../images/white.gif");
+    background-image: url("../images/color.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
@@ -88,13 +100,16 @@ main {
     font-size: 1.3rem;
     max-width: 90%;
     margin: -3% auto 5% auto;
-    border-top-left-radius: 20rem;
-    border-bottom-right-radius: 20rem;
+    /*border-top-left-radius: 20rem;*/
+   /* border-bottom-right-radius: 20rem;
+    border-bottom-left-radius: 20rem;
     border-left: -0.02vh solid #6d7284;
     border-right: -0.02vh solid #8a89aa;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     position: relative;
-    box-shadow: 4px -3px 10px #111010;
+   /* box-shadow: 4px -3px 10px #111010;*/
+   box-shadow: 0 4px 8px rgba(0,0,0,0.2),0 6px 20px rgba(0,0,0,0.19);
+
 
 }
 
@@ -115,7 +130,7 @@ main span {
 main span {
 
     background-color: #040404;
-    
+
     font-size: 0.9rem;
     color: whitesmoke;
     padding: 0.5rem;
@@ -134,57 +149,59 @@ main span {
 
 
 
+
+
 /**About*/
-h2 {
-
-    font-size: 1.1rem;
-    font-weight: 900;
-    padding-top: 2%;
-    color: black;
-    padding-bottom: 0.2rem;
-    border-bottom: 0.1vh solid black;
-    position: relative;
+#mainAbout{
+   /* background-color:#ebf2f5 ;
+   background-color: rgb(199, 242, 238);
+    background-color: #ff5110;*/
+    width: 100%;
+    background-color: white;
 }
-
 #about {
+    display:flex ;
+    justify-content: space-around;
     color: #f8f8f4;
-    width: 75%;
+    width: 60%;
     font-size: 1.5rem;
     margin: 5% auto;
-    color: black;
+   color: black;
     /*box-shadow: 2px 1px 5px 0px #000000;*/
     grid-column: 1/4;
     height: 55vh;
-    background-color: #ffffff;
-    border-left: 0.1vh solid #8a89aab3;
-    border-right: 0.02vh solid #8a89aab3;
+   /* background-color: #ffffff; #8a89aab3;;*/
+    border-left: 0.1vh solid rgb(242, 209, 186);
+    border-right: 0.1vh solid rgb(242, 209, 186);
 
 }
 
 #about h2 {
-    right: -45%;
+    left: 10%;
     width: fit-content;
+    color: black;
+    margin-top: 2rem;
 }
 
-#about img {
-    display: none;
-}
 
-/*#about img{
-    margin: -5% 5% 5% 5%;
-    height: 52vh;
-    max-width:25%;
-    float: left;
+
+#about img{
+  margin-top: 2rem;
+  height: 17.5rem;
+  background-color: white;
+    
    
-}*/
+}
 #about h3 {
     margin: 2rem;
     font-size: 1.2rem;
     /*margin-bottom: 5%;
       margin-top: 5%;*/
 
-
-
+}
+#describe{
+   max-width: 50%;
+   background-color: orange;
 }
 
 /***side skills*/
@@ -203,8 +220,10 @@ h2 {
 }
 
 #h2Services {
+    margin-top: 3rem;
     max-width: 100%;
     border: none;
+    letter-spacing: 1.5rem;
     /*border-bottom: 0.01rem solid rgb(243, 136, 4);*/
     text-align: center;
     margin-bottom: 2rem;
@@ -259,7 +278,7 @@ h2 {
     position: relative;
     right: -43%;
     width: fit-content;
-    
+
 }
 
 #projects,
@@ -280,7 +299,8 @@ h2 {
     align-content: center;
     text-align: center;
     margin-bottom: 3%;
-    box-shadow: 0 3px 10px #a17a69;
+    /*box-shadow: 0 3px 10px #a17a69;*/
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2),0 6px 20px rgba(0,0,0,0.19);
     background-color: #000000;
 
 }
@@ -308,7 +328,7 @@ h2 {
 .projects .tools {
 
     padding-top: 5%;
-    
+
 }
 
 .projects .tools+.tools {
@@ -320,46 +340,29 @@ h2 {
     font-size: 0.75rem;
     margin-left: 5%;
     padding: 1%;
-   color: aliceblue;
+    color: aliceblue;
 }
 
 .projects .links {
     font-size: 1rem;
     display: flex;
     justify-content: space-around;
-   
+
 }
 
+.projects section#black {
+    margin-top: 19rem;
+}
 
 .links a {
-    background-color: #040404;
     text-decoration: none;
     color: rgb(243, 136, 4);
-    margin-top: 0%;
+    margin-top: 2rem;
     padding: 0.2rem;
 }
-section#black{
-    background-color: #040404;
 
-}
-#resturant{
-    background-image: url(../images/cuisine.png);
-    background-size:cover cover;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-}
-#salon{
-    background-image: url(../images/saloon.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-}
-#alphabet{
-    background-image: url(../images/a-z.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-}
+
+
 #more {
     background-color: black;
     color: white;
@@ -379,32 +382,56 @@ section#black{
     right: -48%;
     width: fit-content;
 }
+.blogOptions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    margin-bottom:5rem ;
+}
+.blogOptions div{
+    width: 15rem;
+    height: 10rem;
+    background-color: #6d7284;
+    border-radius: 2rem ;
+  
+}
 
 /****footer*/
-footer  {
+footer {
     background-color: black;
     height: auto;
 }
-footer ul{
+footer h2{
+    font-size: 0.8rem;
+    color: azure;
+    text-align: center;
+}
+
+
+footer ul {
     display: flex;
     justify-content: center;
     font-size: 1.8rem;
     color: white;
 }
-#copyright{
-   
+
+#copyright {
+
     text-align: center;
     color: orange;
     margin-left: -4rem;
-   
+
 }
-footer div i{
+
+footer div i {
     font-size: 0.9rem;
 }
-footer span{
-    font-size:0.9rem ;
+
+footer span {
+    font-size: 0.9rem;
     font-family: 'Alex Brush';
 }
+
 footer ul i {
     margin: 2rem;
     padding: auto 2rem;
@@ -416,10 +443,10 @@ footer ul i {
 
 
 /*********HOVER**********/
-/****header****/
+
 header ul li:hover {
     color: bisque;
-    ;
+
 }
 
 /**main****/
@@ -427,12 +454,47 @@ main span:hover {
     background-color: #ffffff;
     color: black;
 }
-#side ul li:hover{
-   font-size: 4rem;
+#about img:hover{
+    opacity: 0.6;
+    
 }
-#more:hover{
+#side li:hover {
+    font-size: 4rem;
+}
+#ourServices2 div:hover{
+    background-color: orange;
+    color: black;
+}
+#more:hover {
     opacity: 0.6;
 }
-.projects:hover{
-    opacity: 0.7;
+
+.projects:hover {
+    opacity: 0.9;
+}
+
+section#black:hover {
+    background-color: #040404;
+}
+
+
+#salon:hover {
+    background-image: url(../images/saloon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+#alphabet:hover {
+    background-image: url(../images/a-z.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+#resturant:hover {
+    background-image: url(../images/cuisine.png);
+    background-size: cover cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
 }
