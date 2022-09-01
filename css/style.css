@@ -648,7 +648,9 @@ main span:hover {
     }
     #about h3{
         margin-top: 1rem;
+        margin-bottom:0.7rem;
     }
+    
 
     #describe {
         max-width: 100%;
@@ -660,9 +662,6 @@ main span:hover {
         display: block;
     }
 
-    /*#all{
-        padding-top: 0.1rem;
-    }*/
     #h2Services {
         padding-top: 4rem;
         margin-left:1.5rem ;
@@ -675,6 +674,9 @@ main span:hover {
     }
     #h2Projects{
         left:31.5%;
+    }
+    #myWork{
+        padding-bottom: 0rem;
     }
     #projects2 .projects {
         width: 90%;
