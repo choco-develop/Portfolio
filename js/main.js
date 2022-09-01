@@ -14,6 +14,6 @@ document.querySelector('#more').addEventListener('click',show)
 
 
 function showMenu(){
-  
+  document.querySelector('.menu').classList.toggle
 }
 document.querySelector('.phone').addEventListener('click',showMenu)

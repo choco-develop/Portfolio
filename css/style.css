@@ -625,8 +625,22 @@ main span:hover {
         margin-left: 10rem;
         margin-right: -5rem;
     }
-    header nav ul{
+    .menu{
+        display: flex;
         flex-direction: column;
+        gap: 10%;
+        background-color: #ffffff;
+
+    }
+    main .h1{
+        margin: auto;
+        text-align: center;
+    }
+    main span{
+        margin: auto;
+    }
+    .menu li{
+        border-bottom: #25360e;
     }
 
 
@@ -678,7 +692,7 @@ main span:hover {
     #myWork{
         padding-bottom: 0rem;
     }
-    #projects2 .projects {
+    .projects {
         width: 90%;
         height: 25vh;
         margin: auto;
@@ -713,6 +727,9 @@ main span:hover {
 
     footer {
         max-width: 100%;
+    }
+    footer #copyright{
+        margin-left:-2rem ;
     }
 
 }
