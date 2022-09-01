@@ -367,9 +367,7 @@ section#myWork h2 {
 }
 
 .projects .tools {
-
     padding-top: 5%;
-
 }
 
 .projects .tools+.tools {
@@ -422,8 +420,7 @@ section#myWork h2 {
 .links a {
     text-decoration: none;
     color: #86c332;
-
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding: 0.2rem;
 }
 
@@ -681,13 +678,18 @@ main span:hover {
     }
     #projects2 .projects {
         width: 90%;
-        height: 20vh;
+        height: 25vh;
         margin: auto;
         margin-bottom: 2rem;
     }
-
+    .contain {
+        margin-top: 4rem;
+    }
+    .play{
+        display: none;
+    }
+    
     #button {
-
         margin-right: 4rem;
     }
 
