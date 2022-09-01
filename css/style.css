@@ -71,7 +71,9 @@ header nav ul {
 
 
 }
-
+.hide{
+    display: none;
+}
 header nav ul li {
     list-style-type: none;
     font-family: 'Nunito Sans';
@@ -441,9 +443,9 @@ section#myWork h2 {
     color: #86c232;
     /*box-shadow:0.3rem 0.2rem black ,-0.3rem -0.2rem #61892f;*/
     position: relative;
-    right: -47%;
-    font-size: 1.0rem;
-    padding: 0.8%;
+    right: -46%;
+    font-size: 1.1rem;
+    padding: 1rem;
     cursor: pointer;
 }
 
@@ -612,6 +614,9 @@ main span:hover {
     header nav ul {
         display: none;
     }
+    .hide{
+        display: inline;
+    }
     .phone{
         display: inline;
         color: white;
@@ -620,15 +625,9 @@ main span:hover {
         margin-left: 10rem;
         margin-right: -5rem;
     }
-    .phone
-     /*.phone{
-        display:inline-block;
+    header nav ul{
+        flex-direction: column;
     }
-    #menu{
-        display: block;
-        color: white;
-        font-size: 1rem;
-     }*/
 
 
     main {

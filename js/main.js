@@ -1,6 +1,6 @@
 function show(){
     
-    if(document.querySelector('#projects').style.display==="none"){
+    if(document.querySelector('#projects').style.display==="none" ){
     document.querySelector('#projects') .style.display ='flex'
     document.querySelector('#more').innerText="Less"
   }
@@ -11,3 +11,9 @@ function show(){
 
 }
 document.querySelector('#more').addEventListener('click',show)
+
+
+function showMenu(){
+  
+}
+document.querySelector('.phone').addEventListener('click',showMenu)
