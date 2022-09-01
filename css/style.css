@@ -5,17 +5,18 @@ html {
 * {
     box-sizing: border-box;
 }
-html{
-   
-}
+
+html {}
+
 body {
     font-size: 62.5%;
     cursor: pointer;
     justify-content: center;
     align-content: center;
     color: black;
-   
+
 }
+
 h2 {
 
     font-size: 1.1rem;
@@ -23,9 +24,9 @@ h2 {
     padding-top: 2%;
     color: #61892f;
     padding-bottom: 0.2rem;
- 
     position: relative;
 }
+
 /*****HEaDAer****/
 header {
     max-width: 90%;
@@ -33,25 +34,22 @@ header {
     display: flex;
     justify-content: space-evenly;
     background-color: #1a260a;
- 
     margin-left: auto;
     margin-right: auto;
-   /* box-shadow: 0px 2px 5px 0px rgb(152, 155, 179);*/
     z-index: 1;
     position: relative;
 
 }
 
-header span {
+header>span {
 
     font-size: 1.2rem;
     position: absolute;
     z-index: 1;
     left: 5%;
-  /*color: #d65d18;*/
-color: #86c232;
-text-shadow:2px 5px 5px #2b410e;
-   
+    color: #86c232;
+    text-shadow: 2px 5px 5px #2b410e;
+
     margin-top: 0.5%;
 
 }
@@ -68,8 +66,7 @@ header nav ul {
     font-size: 0.8rem;
     right: 22%;
     position: absolute;
-   /* color: rgb(243, 136, 4);*/
-   color: #ffffff;
+    color: #ffffff;
     padding-top: 0.5rem;
 
 
@@ -83,9 +80,11 @@ header nav ul li {
 }
 
 header nav ul li+li {
-    border-left: 0.2rem solid #86c232;;
+    border-left: 0.2rem solid #86c232;
+    ;
 }
-.class{
+
+.phone{
     display: none;
 }
 
@@ -109,8 +108,8 @@ main {
     font-size: 1.3rem;
     max-width: 90%;
     margin: -3% auto 5% auto;
-   box-shadow: 0 4px 8px rgba(0,0,0,0.2),0 6px 20px rgba(0,0,0,0.19);
-   /* border-top-left-radius: 20rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    /* border-top-left-radius: 20rem;
    border-bottom-right-radius: 20rem;
     border-bottom-left-radius: 20rem;
     border-left: -0.02vh solid #6d7284;
@@ -127,18 +126,20 @@ main h1 {
     font-size: 1.5rem;
     margin-left: 2rem;
 }
-.h1{
+
+.h1 {
     display: flex;
     justify-content: space-between;
     margin-left: 3rem;
 }
+
 main h1,
 main span {
     padding-top: 12rem;
     margin-bottom: 7rem;
     font-size: 1.8rem;
     color: #ffffff;
-  
+
 }
 
 main span {
@@ -149,14 +150,14 @@ main span {
     padding: 1rem;
     float: left;
     margin-left: 4rem;
-    
+
     /*box-shadow: 0 3px 10px #9c8e8e;*/
 
 }
 
 
-main img{
-  
+main img {
+
     margin: 8rem 4rem 4rem 4rem;
     height: 15rem;
     margin-right: 4rem;
@@ -166,29 +167,31 @@ main img{
 
 
 /**About*/
-#mainAbout{
+#mainAbout {
     width: 100%;
     height: 60vh;
-   margin: -3.5rem auto -4.5rem auto ;
-   
+    margin: -3.5rem auto -4.5rem auto;
+
 }
+
 #about {
-    display:flex ;
+    display: flex;
     justify-content: center;
     width: 60%;
     font-size: 1.5rem;
     margin: 1% auto 0% auto;
-   color: black;
+    color: black;
     height: 57.5vh;
-   /* background-color: #ffffff; #8a89aab3;;*/
-   /* border-left: 0.1vh solid rgb(242, 209, 186);
+    /* background-color: #ffffff; #8a89aab3;;*/
+    /* border-left: 0.1vh solid rgb(242, 209, 186);
     border-right: 0.1vh solid rgb(242, 209, 186);*/
 
 }
-#left{
-  margin-left: 2.15rem;
- padding :0.4rem;
-    background-color:#222629;
+
+#left {
+    margin-left: 2.15rem;
+    padding: 0.4rem;
+    background-color: #222629;
     font-size: 1rem;
     color: #65a20a;
 }
@@ -204,16 +207,15 @@ main img{
 #about h3 {
     margin: 2rem;
     font-size: 1.2rem;
-  color: #1a260a
-    
-
+    color: #1a260a
 }
-#describe{
-   max-width: 50%;
-   background-color:#86c232;
-   box-shadow: -5px -5px 5px 0px #000000;
 
- 
+#describe {
+    max-width: 50%;
+    background-color: #86c232;
+    box-shadow: -5px -5px 5px 0px #000000;
+
+
 }
 
 /***side skills*/
@@ -233,19 +235,19 @@ main img{
 
 
 /*****ourServices***/
-#all{
+#all {
     background-color: #1a260a;
 }
+
 #h2Services {
     color: #86c232;
     margin-top: 3.7rem;
     max-width: 100%;
     border: none;
     letter-spacing: 1.5rem;
-    /*border-bottom: 0.01rem solid rgb(243, 136, 4);*/
     text-align: center;
     margin-bottom: 2rem;
-   
+
 }
 
 
@@ -258,7 +260,7 @@ main img{
 
 #ourServices2 div {
     background-color: #040404;
-   
+
     color: #86c232;
     box-shadow: 0 3px 10px #86c232;
     padding: 2rem;
@@ -280,19 +282,21 @@ main img{
 
 
 /**PROJECTS*/
-section#myWork{
-  /* background-color:#86c232;*/
+section#myWork {
+    /* background-color:#86c232;*/
     width: 90%;
-    margin: auto ;
+    margin: auto;
     box-shadow: 0 3px 10px #040404;
-  
+
 }
-section#myWork h2{
-   letter-spacing: 1rem;
-   
+
+section#myWork h2 {
+    letter-spacing: 1rem;
+
 }
+
 #h2Projects {
-    font-size:2rem ;
+    font-size: 2rem;
     position: relative;
     left: 34%;
     width: fit-content;
@@ -300,20 +304,23 @@ section#myWork h2{
     padding-top: 2rem;
 
 }
-#h2Projects h2{
+
+#h2Projects h2 {
     color: #25360e;
     border: none;
-    text-shadow:-2px 3px 3px #86c232;
+    text-shadow: -2px 3px 3px #86c232;
 }
 
-#projects,#projects2 {
+#projects,
+#projects2 {
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
-    margin-top:1rem;
+    margin-top: 1rem;
 }
-#projects{
-    display: none;   
+
+#projects {
+    display: none;
 }
 
 .projects {
@@ -329,9 +336,9 @@ section#myWork h2{
     /*box-shadow: 0 3px 10px #a17a69;*/
     /*box-shadow: 0 4px 8px rgba(0,0,0,0.2),0 6px 20px rgba(0,0,0,0.19);*/
     background-color: #101606;
-    
-   
-    
+
+
+
 
 }
 
@@ -348,7 +355,7 @@ section#myWork h2{
     font-size: 1.2rem;
     color: whitesmoke;
     color: aliceblue;
-    
+
 }
 
 .projects#resturant .links a,
@@ -371,9 +378,10 @@ section#myWork h2{
     font-size: 0.75rem;
     margin-left: 5%;
     padding: 1%;
-   
+
 }
-.projects span{
+
+.projects span {
     color: #c1c4c2;
 }
 
@@ -384,46 +392,52 @@ section#myWork h2{
 
 }
 
-.contain{
+.contain {
     margin-top: 9rem;
 }
-.contain h3{
+
+.contain h3 {
     font-size: 1.1rem;
     color: #65a20a;
     padding-bottom: 1rem;
 }
-.play{
+
+.play {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: -10rem;
 }
-.play i{
+
+.play i {
     color: #86c332;
-    text-shadow:1px 1px 1px #86c232;
+    text-shadow: 1px 1px 1px #86c232;
     font-size: 2rem;
-    
+
 }
+
 .links a {
     text-decoration: none;
     color: #86c332;
-    
+
     margin-top: 2rem;
     padding: 0.2rem;
 }
-.links i{
-    text-shadow:1px 1px 1px #86c232;
+
+.links i {
+    text-shadow: 1px 1px 1px #86c232;
     margin-left: 0.1rem;
     padding-left: 0.2rem;
 }
 
 
-#button{
+#button {
     padding-top: 2rem;
     padding-bottom: 5rem;
 }
-#more  {
-    background-color:#1a260a;
+
+#more {
+    background-color: #1a260a;
     color: #86c232;
     /*box-shadow:0.3rem 0.2rem black ,-0.3rem -0.2rem #61892f;*/
     position: relative;
@@ -437,7 +451,7 @@ section#myWork h2{
 /****BLOGS***/
 #blogs {
     margin-top: 0rem;
-   
+
 }
 
 #blogs h2 {
@@ -447,27 +461,31 @@ section#myWork h2{
     color: #040404;
 
 }
+
 .blogOptions {
     display: flex;
     justify-content: space-around;
     padding-bottom: 2rem;
     margin-top: 2rem;
-   
+
 }
-.blogOptions div{
+
+.blogOptions div {
     width: 15rem;
     height: 10rem;
-    background-color:#3b5516;
+    background-color: #3b5516;
     box-shadow: 1px 3px 5px #61892f;
-    border-radius: 2rem ;
-  
+    border-radius: 2rem;
+
 }
-#blogs a{
-   
+
+#blogs a {
+
     text-decoration: none;
     color: #86c332;
 }
-#blogs a h4{
+
+#blogs a h4 {
     padding-top: 3rem;
     text-align: center;
     font-size: 1rem;
@@ -475,17 +493,18 @@ section#myWork h2{
 
 /****footer*/
 footer {
-    background-color :#040404;
+    background-color: #040404;
     height: auto;
     color: #61892f;
     max-width: 90%;
     margin: auto;
 }
-footer h2{
+
+footer h2 {
     font-size: 0.8rem;
     text-align: center;
     border: none;
-  
+
 }
 
 
@@ -493,15 +512,15 @@ footer ul {
     display: flex;
     justify-content: center;
     font-size: 1.8rem;
-    text-shadow:1px 1px 1px #86c232;
-  
+    text-shadow: 1px 1px 1px #86c232;
+
 }
 
 #copyright {
 
     text-align: center;
     margin-left: -4rem;
-    color:#86c232;
+    color: #86c232;
 
 }
 
@@ -536,16 +555,18 @@ main span:hover {
     background-color: #ffffff;
     color: black;
 }
-    
+
 #side li:hover {
     font-size: 4rem;
 }
-#ourServices2 div:hover{
-    background-color:#86c232;
+
+#ourServices2 div:hover {
+    background-color: #86c232;
     color: black;
 }
-.play i:hover{
-    display:none;
+
+.play i:hover {
+    display: none;
 }
 
 .links:hover {
@@ -578,71 +599,107 @@ main span:hover {
 
 
 /************MEDIA QUERY***************/
-@media screen and (max-width:480px){
-    header,main{
-       max-width: 100%;
-    }
-    header nav ul{
-        display: none;
-       
+@media screen and (max-width:480px) {
 
+    header,
+    main {
+        max-width: 100%;
     }
-    .phone menu {
-       display:inline;
-       color: white;
+    header>span{
+        margin-top: 0.5rem;
+        font-size: 1.6rem;
     }
-    
-
-main{
-height: 80vh;
-
-}
-main img{
+    header nav ul {
         display: none;
     }
-    #about{
+    .phone{
+        display: inline;
+        color: white;
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+        margin-left: 10rem;
+        margin-right: -5rem;
+    }
+    .phone
+     /*.phone{
+        display:inline-block;
+    }
+    #menu{
+        display: block;
+        color: white;
+        font-size: 1rem;
+     }*/
+
+
+    main {
+        height: 80vh;
+
+    }
+
+    main img {
+        display: none;
+    }
+
+    #about {
         width: 75%;
     }
-    #describe{
-        max-width: 95%;
+
+    #describe {
+        max-width: 100%;
     }
-    #ourServices2,#projects2,.blogOptions{
+
+    #ourServices2,
+    #projects2,
+    .blogOptions {
         display: block;
     }
+
     /*#all{
         padding-top: 0.1rem;
     }*/
-    #ourServices2{
-         
+    #h2Services {
+        padding-top: 4rem;
+        margin-left:1.5rem ;
     }
-    #ourServices2 div{
-       width: 90%;
-       margin: auto;
-       margin-bottom: 2rem;
+
+    #ourServices2 div {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 2rem;
     }
-    #projects2 .projects{
+    #h2Projects{
+        left:31.5%;
+    }
+    #projects2 .projects {
         width: 90%;
         height: 20vh;
         margin: auto;
         margin-bottom: 2rem;
     }
-    #button{
-        
+
+    #button {
+
         margin-right: 4rem;
     }
 
-    .blogOptions div{
+    .blogOptions div {
         margin: auto;
         margin-bottom: 2rem;
     }
-    #blogs h2{
-       left:40%;
-       margin-top: 1rem;
-       letter-spacing: 0.4rem;
+
+    #blogs h2 {
+        left: 40%;
+        margin-top: 1rem;
+        letter-spacing: 0.4rem;
     }
-    section#myWork h2{
+
+    section#myWork h2 {
         letter-spacing: 0.5rem;
         left: -24%;
+    }
+
+    footer {
+        width: 100%;
     }
 
 }
