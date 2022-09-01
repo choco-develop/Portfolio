@@ -582,6 +582,7 @@ main span:hover {
     
     header nav ul{
         display: none;
+        width: 100%;
 
     }
     .phone menu {
@@ -592,6 +593,7 @@ main span:hover {
 
 main{
 height: 80vh;
+width: 100%;
 }
 main img{
         display: none;
