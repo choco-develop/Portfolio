@@ -641,6 +641,7 @@ main span:hover {
 
     #about {
         width: 82%;
+        height: 55vh;
     }
     #about h2{
         margin-top: 1rem;
