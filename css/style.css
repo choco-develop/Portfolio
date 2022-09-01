@@ -629,7 +629,6 @@ main span:hover {
         display: flex;
         flex-direction: column;
         gap: 10%;
-        
         width: 90%;
         transition: 0.3s;
 
