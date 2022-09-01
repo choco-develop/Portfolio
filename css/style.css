@@ -209,6 +209,9 @@ main img {
     font-size: 1.2rem;
     color: #1a260a
 }
+#about a{
+    text-decoration: none;
+}
 
 #describe {
     max-width: 50%;
@@ -705,7 +708,7 @@ main span:hover {
     }
 
     footer {
-        width: 100%;
+        max-width: 100%;
     }
 
 }
