@@ -85,7 +85,9 @@ header nav ul li {
 header nav ul li+li {
     border-left: 0.2rem solid #86c232;;
 }
-
+.class{
+    display: none;
+}
 
 /******MAIN**/
 #background {
@@ -108,7 +110,7 @@ main {
     max-width: 90%;
     margin: -3% auto 5% auto;
    box-shadow: 0 4px 8px rgba(0,0,0,0.2),0 6px 20px rgba(0,0,0,0.19);
-    /* border-top-left-radius: 20rem;
+   /* border-top-left-radius: 20rem;
    border-bottom-right-radius: 20rem;
     border-bottom-left-radius: 20rem;
     border-left: -0.02vh solid #6d7284;
@@ -304,16 +306,16 @@ section#myWork h2{
     text-shadow:-2px 3px 3px #86c232;
 }
 
-#projects,
-#projects2 {
+#projects,#projects2 {
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
     margin-top:1rem;
 }
-.hidden{
-    display: none;
+#projects{
+    display: none;   
 }
+
 .projects {
     border: 0.1vh solid #222629;
     border-radius: 2rem;
@@ -369,7 +371,10 @@ section#myWork h2{
     font-size: 0.75rem;
     margin-left: 5%;
     padding: 1%;
-    color: #ffffff;
+   
+}
+.projects span{
+    color: #c1c4c2;
 }
 
 .projects .links {
@@ -379,16 +384,37 @@ section#myWork h2{
 
 }
 
-.projects section#black {
-    margin-top: 15rem;
+.contain{
+    margin-top: 9rem;
 }
-
+.contain h3{
+    font-size: 1.1rem;
+    color: #65a20a;
+    padding-bottom: 1rem;
+}
+.play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -10rem;
+}
+.play i{
+    color: #86c332;
+    text-shadow:1px 1px 1px #86c232;
+    font-size: 2rem;
+    
+}
 .links a {
     text-decoration: none;
     color: #86c332;
     
     margin-top: 2rem;
     padding: 0.2rem;
+}
+.links i{
+    text-shadow:1px 1px 1px #86c232;
+    margin-left: 0.1rem;
+    padding-left: 0.2rem;
 }
 
 
@@ -518,14 +544,14 @@ main span:hover {
     background-color:#86c232;
     color: black;
 }
-
-.projects:hover {
-    opacity: 0.9;
+.play i:hover{
+    display:none;
 }
 
-section#black:hover {
+.links:hover {
     background-color: #040404;
 }
+
 
 
 #salon:hover {
@@ -547,4 +573,40 @@ section#black:hover {
     background-size: cover cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
+}
+
+
+
+/************MEDIA QUERY***************/
+@media screen and (max-width:480px){
+    
+    header nav ul{
+        display: none;
+
+    }
+    .phone menu {
+       display:inline;
+       color: white;
+    }
+    
+
+main{
+height: 80vh;
+}
+main img{
+        display: none;
+    }
+    #about{
+        width: 75%;
+    }
+    #describe{
+        max-width: 90%;
+    }
+    #ourServices2{
+        display: block;
+    }
+    #ourServies2 div{
+       width: 90%;
+       margin: auto;
+    }
 }
