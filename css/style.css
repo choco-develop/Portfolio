@@ -646,6 +646,9 @@ main span:hover {
     #about h2{
         margin-top: 1rem;
     }
+    #about h3{
+        margin-top: 1rem;
+    }
 
     #describe {
         max-width: 100%;
