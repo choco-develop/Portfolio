@@ -629,8 +629,17 @@ main span:hover {
         display: flex;
         flex-direction: column;
         gap: 10%;
-        background-color: #ffffff;
+        
+        width: 90%;
+        transition: 0.3s;
 
+
+    }
+    .menu:active{
+        left: 0;
+    }
+    .menu li{
+        border-bottom: #25360e;
     }
     main .h1{
         margin: auto;
@@ -639,9 +648,7 @@ main span:hover {
     main span{
         margin: auto;
     }
-    .menu li{
-        border-bottom: #25360e;
-    }
+    
 
 
     main {
