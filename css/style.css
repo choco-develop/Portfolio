@@ -217,7 +217,7 @@ main img{
 }
 
 /***side skills*/
-#side ul {
+/*#side ul {
     display: flex;
     justify-content: space-evenly;
     font-size: 3.5rem;
@@ -228,7 +228,7 @@ main img{
     box-shadow: 0 3px 10px #a17a69;
     border-radius: 0.4rem;
 
-}
+}*/
 
 
 
@@ -579,10 +579,12 @@ main span:hover {
 
 /************MEDIA QUERY***************/
 @media screen and (max-width:480px){
-    
+    header,main{
+       max-width: 100%;
+    }
     header nav ul{
         display: none;
-        width: 100%;
+       
 
     }
     .phone menu {
@@ -593,7 +595,7 @@ main span:hover {
 
 main{
 height: 80vh;
-width: 100%;
+
 }
 main img{
         display: none;
@@ -602,13 +604,45 @@ main img{
         width: 75%;
     }
     #describe{
-        max-width: 90%;
+        max-width: 95%;
     }
-    #ourServices2{
+    #ourServices2,#projects2,.blogOptions{
         display: block;
     }
-    #ourServies2 div{
+    /*#all{
+        padding-top: 0.1rem;
+    }*/
+    #ourServices2{
+         
+    }
+    #ourServices2 div{
        width: 90%;
        margin: auto;
+       margin-bottom: 2rem;
     }
+    #projects2 .projects{
+        width: 90%;
+        height: 20vh;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    #button{
+        
+        margin-right: 4rem;
+    }
+
+    .blogOptions div{
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    #blogs h2{
+       left:40%;
+       margin-top: 1rem;
+       letter-spacing: 0.4rem;
+    }
+    section#myWork h2{
+        letter-spacing: 0.5rem;
+        left: -24%;
+    }
+
 }
