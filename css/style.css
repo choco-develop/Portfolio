@@ -613,7 +613,7 @@ main span:hover {
     }
     header nav ul {
         display: none;
-    }
+    }*/
     .hide{
         display: inline;
     }
@@ -625,20 +625,26 @@ main span:hover {
         margin-left: 10rem;
         margin-right: -5rem;
     }
-    .menu{
+    .menu.active {
         display: flex;
+        left: 20%;
         flex-direction: column;
-        gap: 10%;
+        /*background-color: #65a20a;*/
+        background-color: #25360e;
+        gap: 5%;
         width: 90%;
-        transition: 0.3s;
-
-
+        margin-top:4rem;
+        height: 62vh;
+       
+        
     }
-    .menu:active{
-        left: 0;
-    }
+
     .menu li{
-        border-bottom: #25360e;
+        color:#61892f;
+        border-bottom:0.1vh solid #25360e;
+        padding: 1rem;
+        text-align: center;
+        font-size: 1.4rem;
     }
     main .h1{
         margin: auto;
