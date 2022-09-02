@@ -35,10 +35,16 @@ function showMenu(){
 document.querySelector('.phone').addEventListener('click',showMenu)
 
 function showHome (){
-  document.querySelector('.menu').classList.toggle('active')
+  /*document.querySelector('.menu').classList.toggle('active')
+  document.querySelector('.stopScroll').classList.toggle('active')*/
+  showMenu()
 }
 document.querySelector('.menu').addEventListener('click',showHome)
 
+
+
+
+//profile display not done 
 /*function showProfile(){
   document.querySelector(".h1").style.display="none"
   
