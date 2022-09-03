@@ -765,7 +765,9 @@ main span:hover {
         max-width: 100%;
     }
     footer #copyright{
-        margin-left:-2rem ;
+      display: flex;
+      justify-content: center;
+      margin-left: 2.35rem;
     }
 
 }
