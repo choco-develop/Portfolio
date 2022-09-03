@@ -620,6 +620,11 @@ main span:hover {
     header nav ul {
         display: none;
     }
+    .h1{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
     li#hide{
         display: inline;
     }
@@ -633,14 +638,15 @@ main span:hover {
     }
     .menu.active {
         display: flex;
-        left: 20%;
+        left: 0%;
         flex-direction: column;
         /*background-color: #65a20a;*/
         background-color: #25360e;
         gap: 5%;
-        width: 92%;
+        width: 90%;
         margin-top:4rem;
-      height: 62vh;
+        margin-left: 1%;
+      height: 68vh;
        
         
     }
@@ -651,7 +657,7 @@ main span:hover {
 
     .menu li{
        
-        border-bottom:0.1rem  solid  #86c232;
+        border-bottom:0.1rem  solid  #222629;
         padding: 0.75rem;
         text-align: center;
         font-size: 1.4rem;
