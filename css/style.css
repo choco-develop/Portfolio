@@ -1,12 +1,13 @@
 html {
     scroll-behavior: smooth;
+   
 }
 
 * {
     box-sizing: border-box;
+    max-width: 100%;
 }
 
-html {}
 
 body {
     font-size: 62.5%;
@@ -65,7 +66,7 @@ footer div {
 
 header nav ul {
     display: flex;
-    gap: 20%;
+    gap: 18%;
     font-size: 0.8rem;
     right: 22%;
     position: absolute;
@@ -236,11 +237,9 @@ main img {
     font-size: 3.5rem;
     padding-top: 5rem;
 }
-
 #side ul li {
     box-shadow: 0 3px 10px #a17a69;
     border-radius: 0.4rem;
-
 }*/
 
 
@@ -647,7 +646,7 @@ main span:hover {
     }
     .stopScroll.active{
         height: 100%;
-        overflow: hidden;
+       /* overflow: hidden*/;
     }
 
     .menu li{
@@ -764,3 +763,4 @@ main span:hover {
     }
 
 }
+
