@@ -132,7 +132,8 @@ main {
 
 main h1 {
     /*font-family: 'Nanum Pen Script', cursive;*/
-    font-family: 'Inter', sans-serif;
+   font-family: 'Inter', sans-serif;
+     /*font-family: 'Space Grotesk', sans-serif;*/
     font-size: 1.4rem;
     margin-left: 2rem;
 }
@@ -651,12 +652,24 @@ main span:hover {
         margin-top:4rem;
         margin-left: 1%;
       height: 68vh;
-       
-        
+      animation: myAnim 1s ease 0s 1 alternate backwards;
+         
     }
+    @keyframes myAnim {
+        0% {
+            transform: scaleX(0.4);
+            transform-origin: 100% 100%;
+        }
+    
+        100% {
+            transform: scaleX(1);
+            transform-origin: 100% 100%;
+        }
+    }
+    
     .stopScroll.active{
         height: 100%;
-       /* overflow: hidden*/;
+       overflow: hidden;
     }
 
     .menu li{
