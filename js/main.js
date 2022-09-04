@@ -39,3 +39,10 @@ function showHome (){
   showMenu()
 }
 document.querySelector('.menu').addEventListener('click',showHome)
+
+
+function articleLess(){
+  document.querySelector('.more').style.display="none"
+  document.querySelector('.less').style.display="inline"
+}
+document.querySelector('.more').addEventListener('click',articleLess)
