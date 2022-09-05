@@ -29,9 +29,18 @@ document.querySelector('#more').addEventListener('click',show)
 function showMenu(){
   document.querySelector('.menu').classList.toggle('active')
  document.querySelector('.stopScroll').classList.toggle('active')
-  }
-
+ 
+ 
+ }
 document.querySelector('.phone').addEventListener('click',showMenu)
+function animate(){
+if(  document.querySelector('.menu').classList.toggle('active')==true){
+   document.querySelector('.menu').classList.add('reverse')
+  
+ }
+}
+document.querySelector('.phone').addEventListener('click',showMenu)
+
 
 function showHome (){
   /*document.querySelector('.menu').classList.toggle('active')
@@ -41,8 +50,8 @@ function showHome (){
 document.querySelector('.menu').addEventListener('click',showHome)
 
 
-function articleLess(){
+/*function articleLess(){
   document.querySelector('.more').style.display="none"
   document.querySelector('.less').style.display="inline"
 }
-document.querySelector('.more').addEventListener('click',articleLess)
+document.querySelector('.more').addEventListener('click',articleLess)*/

@@ -630,6 +630,46 @@ main span:hover {
         align-content: center;
         justify-content: center;
     }
+    main h1{
+        display: inline-block;
+    }
+    
+        #start {  
+animation: slidein 5s infinite;
+}
+
+#first {
+width:0px;
+animation: reveal 9s infinite;
+}
+
+#second {
+margin-left:-355px;
+animation: slidein 10s infinite;
+}
+
+@keyframes slidein{
+0% {opacity:0;}
+20% {opacity:1;}
+80% {opacity:1;}
+100% {opacity:0;}
+}
+
+@keyframes slidein {
+0% { margin-left:-800px; }
+20% { margin-left:-800px; }
+35% { margin-left:0px; }
+100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+0% {opacity:0;width:0px;}
+20% {opacity:1;width:0px;}
+30% {width:355px;}
+80% {opacity:1;}
+100% {opacity:0;width:355px;}
+}
+    
     li#hide{
         display: inline;
     }
@@ -666,7 +706,20 @@ main span:hover {
             transform-origin: 100% 100%;
         }
     }
+    .reverse{
+        animation: turn 1s ease 0s 1 alternate backwards;
+    }
+    @keyframes turn {
+        0% {
+            opacity: 1;
+            transform: translateX(0);
+        }
     
+        100% {
+            opacity: 0;
+            transform: translateX(-250px);
+        }
+    }
     .stopScroll.active{
         height: 100%;
        overflow: hidden;
