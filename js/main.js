@@ -1,6 +1,6 @@
 window.onscroll=function (){top()}
-function arrowTop (){
-document.body.scrollTop > 10 || document.documentElement >10 ? document.querySelector('#arrow').style.display="block":document.querySelector('#arrow').style.display="none"
+function top(){
+document.body.scrollTop > 20 || document.documentElement.scrollTop >20 ? document.querySelector('#arrow').style.display="block":document.querySelector('#arrow').style.display="none"
 }
 
 
