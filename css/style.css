@@ -735,6 +735,9 @@ animation: reveal 9s infinite;
         font-size: 1.4rem;
         border-left: none
     }
+    .reverse{
+        animation: myAnim 1s ease 0s 1 alternate forwards;
+    }
     li a{
         color:#ffffff;
     }
