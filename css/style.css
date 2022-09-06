@@ -708,7 +708,7 @@ animation: reveal 9s infinite;
         margin-top:4rem;
         margin-left: 1%;
        height: 68vh;
-       animation: myAnim 1s ease 0s infinite alternate backwards;
+       animation: myAnim 1s ease 0s 2 alternate backwards;
     }
     @keyframes myAnim {
         0% {
@@ -734,9 +734,6 @@ animation: reveal 9s infinite;
         text-align: center;
         font-size: 1.4rem;
         border-left: none
-    }
-    .reverse{
-        animation: myAnim 1s ease 0s 1 alternate forwards;
     }
     li a{
         color:#ffffff;
