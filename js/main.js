@@ -40,13 +40,8 @@ function showMenu(){
  
  }
 document.querySelector('.phone').addEventListener('click',showMenu)
-function animate(){
-if(  document.querySelector('.menu').classList.toggle('active')==true){
-   document.querySelector('.menu').classList.add('reverse')
-  
- }
-}
-document.querySelector('.phone').addEventListener('click',showMenu)
+
+
 
 
 function showHome (){
@@ -57,8 +52,3 @@ function showHome (){
 document.querySelector('.menu').addEventListener('click',showHome)
 
 
-/*function articleLess(){
-  document.querySelector('.more').style.display="none"
-  document.querySelector('.less').style.display="inline"
-}
-document.querySelector('.more').addEventListener('click',articleLess)*/

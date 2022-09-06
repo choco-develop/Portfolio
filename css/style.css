@@ -517,6 +517,7 @@ section#myWork h2 {
 }
 #arrow i{
     color: #ffffff;
+   
 }
 
 
@@ -654,44 +655,41 @@ main span:hover {
     }
     
         #start {  
-animation: slidein 5s infinite;
-}
+    animation: slidein 5s infinite;
+    }
 
-#first {
+    #first {
 width:0px;
 animation: reveal 9s infinite;
-}
-
-#second {
-margin-left:-355px;
-animation: slidein 10s infinite;
-}
-
-@keyframes slidein{
-0% {opacity:0;}
-20% {opacity:1;}
-80% {opacity:1;}
-100% {opacity:0;}
-}
-
-@keyframes slidein {
-0% { margin-left:-800px; }
-20% { margin-left:-800px; }
-35% { margin-left:0px; }
-100% { margin-left:0px; }
-}
-
-@keyframes reveal {
-0% {opacity:0;width:0px;}
-20% {opacity:1;width:0px;}
-30% {width:355px;}
-80% {opacity:1;}
-100% {opacity:0;width:355px;}
-}
-    
-    li#hide{
-        display: inline;
     }
+
+    #second {
+    margin-left:-355px;
+    animation: slidein 10s infinite;
+    }
+
+    @keyframes slidein{
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+    }
+
+    @keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+    }
+
+    @keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+    }
+    
     .phone{
         display: inline;
         color: white;
@@ -704,15 +702,13 @@ animation: slidein 10s infinite;
         display: flex;
         left: 0%;
         flex-direction: column;
-        /*background-color: #65a20a;*/
         background-color: #25360e;
         gap: 5%;
         width: 90%;
         margin-top:4rem;
         margin-left: 1%;
-      height: 68vh;
-      animation: myAnim 1s ease 0s 1 alternate backwards;
-         
+       height: 68vh;
+       animation: myAnim 1s ease 0s 1 alternate backwards;
     }
     @keyframes myAnim {
         0% {
@@ -725,20 +721,7 @@ animation: slidein 10s infinite;
             transform-origin: 100% 100%;
         }
     }
-    .reverse{
-        animation: turn 1s ease 0s 1 alternate backwards;
-    }
-    @keyframes turn {
-        0% {
-            opacity: 1;
-            transform: translateX(0);
-        }
     
-        100% {
-            opacity: 0;
-            transform: translateX(-250px);
-        }
-    }
     .stopScroll.active{
         height: 100%;
        overflow: hidden;
