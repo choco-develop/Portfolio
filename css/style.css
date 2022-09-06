@@ -708,7 +708,7 @@ animation: reveal 9s infinite;
         margin-top:4rem;
         margin-left: 1%;
        height: 68vh;
-       animation: myAnim 1s ease 0s 1 alternate backwards;
+       animation: myAnim 1s ease 0s infinite alternate backwards;
     }
     @keyframes myAnim {
         0% {
