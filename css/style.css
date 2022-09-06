@@ -29,6 +29,7 @@ h2 {
 }
 a{
     text-decoration: none;
+
 }
 
 /*****HEaDAer****/
@@ -502,6 +503,21 @@ section#myWork h2 {
 #blogs .less{
     display: none;
 }
+/**ARROW*/
+
+#arrow{
+    text-decoration: none;
+    opacity: 0.8;
+    font-size: 3rem;
+    background-color: #65a807;
+    color: #ffffff;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+
+
+
 
 /****footer*/
 footer {

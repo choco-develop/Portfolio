@@ -1,3 +1,10 @@
+window.onscroll=function (){top()}
+function arrowTop (){
+document.body.scrollTop > 10 || document.documentElement >10 ? document.querySelector('#arrow').style.display="block":document.querySelector('#arrow').style.display="none":
+}
+
+
+
 function show(){
   const mobile=window.matchMedia('(max-width:480px)')
   if (mobile.matches){
