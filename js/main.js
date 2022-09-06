@@ -36,7 +36,7 @@ document.querySelector('#more').addEventListener('click',show)
 function showMenu(){
   document.querySelector('.menu').classList.toggle('active')
  document.querySelector('.stopScroll').classList.toggle('active')
- if( document.querySelector('.menu').classList.toggle('active')==true){
+ if( document.querySelector('.menu').classList.toggle('active')==false){
   document.querySelector('.menu').classList.add('reverse')
  }
  
