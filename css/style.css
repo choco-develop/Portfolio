@@ -153,6 +153,22 @@ main span {
     color: #ffffff;
 
 }
+.consoleContainer{
+    width: 90%;
+    margin: auto;
+    color: #ffffff;
+    font-size: 2rem;
+    display: block;
+}
+.consoleUnderscore{
+    display:inline-block;
+   position:relative;
+   padding: 1rem;
+   
+ }
+ .hidden {
+    opacity:0;
+  }
 
 main span {
 
@@ -708,7 +724,7 @@ animation: reveal 9s infinite;
         margin-top:4rem;
         margin-left: 1%;
        height: 68vh;
-       animation: myAnim 1s ease 0s 2 alternate backwards;
+       animation: myAnim 1s ease 0s infinite alternate backwards;
     }
     @keyframes myAnim {
         0% {
