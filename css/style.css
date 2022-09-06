@@ -141,24 +141,27 @@ main h1 {
 
 .h1 {
     display: flex;
-    justify-content: space-between;
-    margin-left: 3rem;
+    justify-content: center;
+  align-content: center;
+  padding-top: 15rem;
+  
 }
 
-main h1,
-main span {
+/*main h1,
+main>span {
     padding-top: 12rem;
     margin-bottom: 7rem;
     font-size: 1.8rem;
     color: #ffffff;
 
-}
+}*/
 .consoleContainer{
-    width: 90%;
     margin: auto;
     color: #ffffff;
-    font-size: 2rem;
+    font-size: 3rem;
     display: block;
+    text-align: center;
+   
 }
 .consoleUnderscore{
     display:inline-block;
@@ -169,8 +172,9 @@ main span {
  .hidden {
     opacity:0;
   }
+  
 
-main span {
+main>span {
 
     background-color: #86c332;
     font-size: 1rem;
@@ -179,17 +183,12 @@ main span {
     float: left;
     margin-left: 4rem;
 
-    /*box-shadow: 0 3px 10px #9c8e8e;*/
+    
 
 }
 
 
-main img {
 
-    margin: 8rem 4rem 4rem 4rem;
-    height: 15rem;
-    margin-right: 4rem;
-}
 
 
 
@@ -666,45 +665,11 @@ main span:hover {
         align-content: center;
         justify-content: center;
     }
-    main h1{
+    /*main h1{
         display: inline-block;
-    }
+    }*/
     
-        #start {  
-    animation: slidein 5s infinite;
-    }
-
-    #first {
-width:0px;
-animation: reveal 9s infinite;
-    }
-
-    #second {
-    margin-left:-355px;
-    animation: slidein 10s infinite;
-    }
-
-    @keyframes slidein{
-    0% {opacity:0;}
-    20% {opacity:1;}
-    80% {opacity:1;}
-    100% {opacity:0;}
-    }
-
-    @keyframes slidein {
-    0% { margin-left:-800px; }
-    20% { margin-left:-800px; }
-    35% { margin-left:0px; }
-    100% { margin-left:0px; }
-    }
-
-    @keyframes reveal {
-    0% {opacity:0;width:0px;}
-    20% {opacity:1;width:0px;}
-    30% {width:355px;}
-    80% {opacity:1;}
-    100% {opacity:0;width:355px;}
-    }
+       
     
     .phone{
         display: inline;
@@ -754,9 +719,9 @@ animation: reveal 9s infinite;
     li a{
         color:#ffffff;
     }
-    main .h1{
-        margin: auto;
-        text-align: center;
+    .h1{
+        font-size: 1.3rem;
+        padding-top: 12rem;
     }
     main span{
         margin: auto;

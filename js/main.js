@@ -1,14 +1,8 @@
-window.onscroll=function (){top()}
-function top(){
-document.body.scrollTop > 20 || document.documentElement.scrollTop >20 ? document.querySelector('#arrow').style.display="block":document.querySelector('#arrow').style.display="none"
-}
 
-let words=['Hello World!', 'I am Anita', 'A software developer based in NIgeria.']
-let id= 'text'
-let colors=['#a4b3a6','#ffffff','#6b6e70']
+
 
 function consoleText(words, id, colors) {
-  //if (colors === undefined) colors = ['#fff'];
+  //if (colors === Undefined) colors = ['#fff'];
   let visible = true;
   let con = document.getElementById('console');
   let letterCount = 1;
@@ -16,8 +10,8 @@ function consoleText(words, id, colors) {
   let waiting = false;
   let target = document.getElementById(id)
   target.setAttribute('style', 'color:' + colors[0])
-
   window.setInterval(function() {
+
     if (letterCount === 0 && waiting === false) {
       waiting = true;
       target.innerText = words[0].substring(0, letterCount)
@@ -55,6 +49,11 @@ function consoleText(words, id, colors) {
     }
   }, 400)
 }
+window.onload=consoleText(['Hello World!','I am Anita','I build for the web'], 'text',['#ffffff','#ffffff','#ffffff']);
+
+
+window.onscroll =() => 
+document.body.scrollTop > 20 || document.documentElement.scrollTop >20 ? document.querySelector('#arrow').style.display="block":document.querySelector('#arrow').style.display="none"
 
 
 
