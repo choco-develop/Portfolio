@@ -769,9 +769,15 @@ main span:hover {
     }
     
     #button {
-        margin-right: 6rem;
+        
+            margin-left: 7rem;
+            width: 34%;
+            padding: 1rem;
+        
     }
-
+    #more{
+        font-size: 1.3rem;
+    }
     .blogOptions div {
         margin: auto;
         margin-bottom: 2rem;
@@ -801,13 +807,7 @@ main span:hover {
 
 @media (min-width:481px) and (max-width:768px){
 
-    /*#about{
-         font-size: 1.4rem;
-    }
     
-    .blogOptions div a h4{
-        font-size: 1.4rem;
-    }*/
     header,
     main {
         max-width: 100%;
