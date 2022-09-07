@@ -59,7 +59,8 @@ document.body.scrollTop > 20 || document.documentElement.scrollTop >20 ? documen
 
 function show(){
   const mobile=window.matchMedia('(max-width:480px)')
-  if (mobile.matches){
+  const tab=window.matchMedia(' (max-width:760px')
+  if (mobile.matches || tab.matches){
     if( document.querySelector('#projects').style.display==="none" ){
     document.querySelector('#projects') .style.display ='inline'
     document.querySelector('#more').innerText="Less"
