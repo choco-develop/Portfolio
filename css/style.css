@@ -805,7 +805,7 @@ main span:hover {
 
 }
 
-@media (min-width:481px) and (max-width:768px){
+@media (min-width:481px) and (max-width:600px){
 
     
     header,
@@ -832,7 +832,7 @@ main span:hover {
         font-size: 1.5rem;
         margin-top: 0.5rem;
         margin-left: 10rem;
-        margin-right: -11rem;
+        margin-right: -7rem;
     }
     .menu.active {
         display: flex;
@@ -875,7 +875,7 @@ main span:hover {
     }
     .h1{
         font-size: 1.2rem;
-        padding-top: 12rem;
+        padding-top: 17rem;
     }
     .h1 span{
         font-size: 2.5rem;
@@ -895,8 +895,8 @@ main span:hover {
     }
 
     #about {
-        width: 75%;
-        height: 65vh;
+        width: 80%;
+        height: 75vh;
     }
     #mainAbout{
         margin-top:-4rem;
@@ -921,7 +921,7 @@ main span:hover {
     }
     
     #all{
-        margin-top: 8rem;
+        margin-top: 13rem;
     }
     #ourServices2,
     #projects2,
@@ -972,8 +972,8 @@ main span:hover {
     }
     
     #button {
-        margin-left: 16rem;
-        width: 25%;
+        margin-left: 33%;
+        width: 35%;
     }
     #more{
         font-size: 1.3rem;
@@ -989,18 +989,18 @@ main span:hover {
     }
 
     #blogs h2 {
-        left: 42%;
+        left: 38%;
         margin-top: 1rem;
         letter-spacing: 0.4rem;
         font-size: 1.8rem;
     }
     #blogs a h4{
-        font-size: 1.7rem;
+        font-size: 1.4rem;
     }
 
     section#myWork h2 {
         letter-spacing: 0.5rem;
-        left: -20%;
+        left: -26%;
         font-size: 1.8rem;
     }
     #contacts h2{
