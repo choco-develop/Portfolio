@@ -651,7 +651,7 @@ main span:hover {
     }
     .menu.active {
         display: flex;
-        left: 0%;
+        right: 0%;
         flex-direction: column;
         background-color: #25360e;
         gap: 5%;
