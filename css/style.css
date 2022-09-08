@@ -67,7 +67,7 @@ footer div {
 
 header nav ul {
     display: flex;
-    gap: 18%;
+    gap: 15%;
     font-size: 0.8rem;
     right: 22%;
     position: absolute;
@@ -109,7 +109,7 @@ main {
     background-size: cover;
     background-attachment: scroll;
     background-position: center center;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     max-width: 90%;
     margin: -3% auto 5% auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
@@ -125,18 +125,11 @@ main h1 {
     display: flex;
     justify-content: center;
   align-content: center;
-  padding-top: 15rem;
+
   
 }
 
-/*main h1,
-main>span {
-    padding-top: 12rem;
-    margin-bottom: 7rem;
-    font-size: 1.8rem;
-    color: #ffffff;
 
-}*/
 .consoleContainer{
     margin: auto;
     color: #ffffff;
@@ -179,8 +172,8 @@ main>span {
 /**About*/
 #mainAbout {
     width: 100%;
-    height: 60vh;
-    margin: -3.5rem auto -4.5rem auto;
+    height: auto;
+    margin: 1.5rem auto -3.5rem auto;
 
 }
 
@@ -189,25 +182,24 @@ main>span {
     justify-content: center;
     width: 60%;
     font-size: 1.5rem;
-    margin: 1% auto 0% auto;
+    margin: -6% auto 2% auto;
     color: black;
-    height: 57.5vh;
-    /* background-color: #ffffff; #8a89aab3;;*/
-    /* border-left: 0.1vh solid rgb(242, 209, 186);
-    border-right: 0.1vh solid rgb(242, 209, 186);*/
-
-}
+    height: auto;
+    }
 
 #left {
-    margin-left: 2.15rem;
+    margin:auto;
     padding: 0.4rem;
     background-color: #222629;
     font-size: 1rem;
     color: #65a20a;
+    letter-spacing: 0.8rem;
 }
-
+#space{
+    margin-top: 4%;
+}
 #about h2 {
-    left: 10%;
+    left: 7%;
     width: fit-content;
     margin-top: 2rem;
     border-bottom: 0.1vh solid #222629;
@@ -215,13 +207,16 @@ main>span {
 
 
 #about h3 {
-    margin: 2rem;
+    margin: 5%;
     font-size: 1.2rem;
     color: #1a260a
 }
 #about a{
     text-decoration: none;
+   display: flex;
+   justify-content: center;
 }
+
 
 #describe {
     max-width: 50%;
@@ -596,7 +591,7 @@ main span:hover {
 
 
 
-#salon:hover {
+/*#salon:hover {
     background-image: url(../images/saloon.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -615,7 +610,7 @@ main span:hover {
     background-size: cover cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
-}
+}*/
 
 
 
@@ -638,6 +633,7 @@ main span:hover {
         display: flex;
         align-content: center;
         justify-content: center;
+
     }
        
     
@@ -689,10 +685,7 @@ main span:hover {
     li a{
         color:#ffffff;
     }
-    .h1{
-       
-        padding-top: 13rem;
-    }
+    
     .h1 span{
         font-size: 1.75rem;
     }
@@ -704,7 +697,8 @@ main span:hover {
 
 
     main {
-        height: 75vh;
+        height: 90vh;
+        padding-top: 35vh;
 
     }
 
@@ -713,12 +707,13 @@ main span:hover {
     }
 
     #about {
-        width: 82%;
-        height: 55vh;
+        width: 65%;
+        /*height: 55vh;*/
+        height: auto;
     }
     #mainAbout{
-        margin-top:-2.5rem;
-        margin-bottom: -5rem;
+        margin-top:-2rem;
+        margin-bottom: -3.5rem;
     }
     #about h2{
         margin-top: 1rem;
@@ -805,7 +800,7 @@ main span:hover {
 
 }
 
-@media (min-width:481px) and (max-width:768px){
+/*@media (min-width:481px) and (max-width:600px){
 
     
     header,
@@ -823,6 +818,7 @@ main span:hover {
         display: flex;
         align-content: center;
         justify-content: center;
+       
     }
        
     
@@ -873,10 +869,7 @@ main span:hover {
     li a{
         color:#ffffff;
     }
-    .h1{
-        font-size: 1.2rem;
-        padding-top: 17rem;
-    }
+    
     .h1 span{
         font-size: 2.5rem;
     }
@@ -887,7 +880,7 @@ main span:hover {
 
     main {
         height: 90vh;
-
+        padding-top: 35vh;
     }
 
     main img {
@@ -895,7 +888,7 @@ main span:hover {
     }
 
     #about {
-        width: 80%;
+        width: 60%;
         height: 75vh;
     }
     #mainAbout{
@@ -1017,6 +1010,265 @@ main span:hover {
       justify-content: center;
       margin-left: 1rem;
     }
-    }
+    }*/
+    
     
 
+    @media (min-width:481px) and (max-width:768px){
+
+    
+        header,
+        main {
+            max-width: 100%;
+        }
+        header>span{
+            margin-top: 0.5rem;
+            font-size: 1.6rem;
+        }
+        header nav ul {
+            display: none;
+        }
+        .h1{
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            padding-top: 53vw;
+        }
+           
+        
+        .phone{
+            display: inline;
+            color: white;
+            font-size: 1.5rem;
+            margin-top: 0.5rem;
+            /*margin-left: 5rem;
+            margin-right: -7rem;*/
+            position: relative;
+            right: -26%;
+        }
+        .menu.active {
+            display: flex;
+           right: 0%;
+            flex-direction: column;
+            background-color: #25360e;
+            gap: 5%;
+            width: 60%;
+            margin-top:4rem;
+           height: 65vh;
+           animation: myAnim 1s ease 0s infinite alternate backwards;
+        }
+        @keyframes myAnim {
+            0% {
+                transform: scaleX(0.7);
+                transform-origin: 100% 100%;
+            }
+        
+            100% {
+                transform: scaleX(1);
+                transform-origin: 100% 100%;
+            }
+        }
+        
+        .stopScroll.active{
+            height: 100%;
+           overflow: hidden;
+        }
+    
+        .menu li{
+           
+            border-bottom:0.1rem  solid  #222629;
+            padding: 0.75rem;
+            text-align: center;
+            font-size: 1.4rem;
+            border-left: none
+        }
+        li a{
+            color:#ffffff;
+        }
+       .h1{
+        padding-top: 35vh;
+       }
+        .h1 span{
+            font-size: 2.5rem;
+        }
+        main>span{
+            margin: auto;
+            font-size: 1.5rem;
+        }
+    
+        main {
+            height: 90vh;
+        }
+    
+        main img {
+            display: none;
+        }
+    
+        #about {
+            width: 60%;
+           /*height: 75vh;*/
+           height: auto;
+        }
+        #mainAbout{
+            margin-top:-2.5rem;
+            margin-bottom: -12.5rem;
+        }
+        #about h2{
+            margin-top: 1rem;
+            font-size: 1.5rem
+        }
+        #about h3{
+            margin-top: 1rem;
+            margin-bottom:1.5rem;
+            font-size: 1.7rem;
+        }
+        
+    
+        #describe {
+            max-width: 100%;
+        }
+        #describe a span{
+            font-size: 1.5rem;
+        }
+        #describe h3{
+            font-size: 1.5rem;
+        }
+        
+        #all{
+            margin-top: 13rem;
+        }
+        #ourServices2,
+        #projects2,
+        .blogOptions {
+            display: block;
+        }
+    
+        #h2Services {
+            padding-top: 4rem;
+            margin-left:1.5rem ;
+            font-size: 2.0rem;
+        }
+    
+        #ourServices2 div {
+            width: 90%;
+            margin: auto;
+            margin-bottom: 2rem;
+            font-size: 1.7rem;
+        }
+        #h2Projects{
+            left:31.5%;
+        }
+        #myWork{
+            padding-bottom: 0rem;
+           
+        }
+        .projects {
+            width: 80%;
+            height: 35vh;
+            margin: auto;
+            margin-bottom: 2rem;
+            
+        }
+        .contain h3{
+            font-size: 1.6rem;
+        }
+        .contain {
+            margin-top: 1rem;
+        }
+        .contain span{
+            font-size: 1.5rem;
+        }
+        .projects .tools span,.projects .links a{
+            font-size: 1.2rem;
+        }
+        .play{
+            display: none;
+        }
+        
+        #button {
+            margin-left: 33%;
+            width: 35%;
+        }
+        #more{
+            font-size: 1.3rem;
+        }
+    
+        .blogOptions div {
+            margin: auto;
+            margin-bottom: 2rem;
+            width: 60%;
+            height:15rem ;
+            padding: 2rem 3rem ;
+            
+        }
+    
+        #blogs h2 {
+            left: 38%;
+            margin-top: 1rem;
+            letter-spacing: 0.4rem;
+            font-size: 1.8rem;
+        }
+        #blogs a h4{
+            font-size: 1.4rem;
+        }
+    
+        section#myWork h2 {
+            letter-spacing: 0.5rem;
+            left: -26%;
+            font-size: 1.8rem;
+        }
+        #contacts h2{
+              font-size: 1.5rem;
+        }
+        #contacts ul i{
+            font-size: 2rem;
+        }
+        footer {
+            max-width: 100%;
+        }
+        footer #copyright{
+          display: flex;
+          justify-content: center;
+          margin-left: 1rem;
+        }
+        }
+        @media (min-width:769px)and (max-width:1021px){
+            header nav ul {
+                right: 23%;
+                gap: 9%;
+            }
+            header nav ul li{
+                font-size: 1.0rem;
+            }
+            header span{
+                font-size: 1.6rem;
+                margin-left: 1%;
+            }
+            main{
+                height: 90vh;
+            }
+            main .h1{
+                padding-top: 34vh;
+            }
+            main >span{
+                margin-left: 0%;
+            }
+            #about{
+                width:100% ;
+                height: auto;
+                padding-bottom:1%;
+            }
+            #describe h3{
+                font-size: 1.5rem;  
+
+            }
+            #h2Projects{
+                left: 23%;
+            }
+            section#myWork h2{
+                letter-spacing:1.3rem;
+            }
+
+        }
+        
+        
