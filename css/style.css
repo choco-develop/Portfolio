@@ -125,8 +125,8 @@ div.h1 {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 47%;
-    transform: translate(0,-35%);
+    top: 44%;
+    transform: translate(0,-25%);
     font-family: 'Inter', sans-serif;
     font-size: 1.4rem;
    
@@ -1265,9 +1265,9 @@ main span:hover {
             #blogs h2{
                 right:-44.5%;
             }
-            #myWork section.smallScreen{
-                display:inline-grid;
-                grid-template-columns: auto auto;
+            .projects{
+                width: 50%;
+                height: 50%;
             }
             #contacts{
                 max-width: 100%;
