@@ -724,6 +724,9 @@ main span:hover {
     #describe {
         max-width: 100%;
     }
+    #left{
+        letter-spacing: 0.5rem;
+    }
 
     #ourServices2,
     #projects2,
