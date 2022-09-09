@@ -1187,7 +1187,7 @@ main span:hover {
         
         #button {
             margin-left: 33%;
-            width: 30%;
+            width: fit-content;
         }
         #more{
             font-size: 1.3rem;
