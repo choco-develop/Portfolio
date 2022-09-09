@@ -103,7 +103,7 @@ header nav ul li+li {
 }
 
 main {
-    height: 100vh;
+    height: 95vh;
     background-image: url("../images/main-green.gif");
     background-repeat: no-repeat;
     background-size: cover;
@@ -113,18 +113,24 @@ main {
     max-width: 90%;
     margin: -3% auto 5% auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+   
 }
 
-main h1 {
-   font-family: 'Inter', sans-serif;
-    font-size: 1.4rem;
+/*main .h1 {
+   
     margin-left: 2rem;
 }
-
-.h1 {
+*/
+div.h1 {
     display: flex;
     justify-content: center;
-  align-content: center;
+    position: relative;
+    top: 47%;
+    transform: translate(0,-35%);
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+   
+   
 
   
 }
@@ -135,18 +141,17 @@ main h1 {
     color: #ffffff;
     font-size: 3rem;
     display: block;
-    text-align: center;
-   
+    
+
+
 }
 .consoleUnderscore{
     display:inline-block;
    position:relative;
    padding: 1rem;
+   text-align: center;
    
  }
- .hidden {
-    opacity:0;
-  }
   
 
 main>span {
@@ -158,9 +163,8 @@ main>span {
     float: left;
     margin-left: 4rem;
     font-size: 1.4rem;
-
-    
-
+    position: relative;
+    top: 50%;
 }
 
 
@@ -629,12 +633,7 @@ main span:hover {
     header nav ul {
         display: none;
     }
-    .h1 {
-        display: flex;
-        align-content: center;
-        justify-content: center;
-
-    }
+    
        
     
     .phone{
@@ -697,14 +696,12 @@ main span:hover {
 
 
     main {
-        height: 90vh;
-        padding-top: 35vh;
+       /* height: 90vh;
+        padding-top: 35vh;*/
 
     }
 
-    main img {
-        display: none;
-    }
+   
 
     #about {
         width: 65%;
@@ -814,12 +811,7 @@ main span:hover {
     header nav ul {
         display: none;
     }
-    .h1{
-        display: flex;
-        align-content: center;
-        justify-content: center;
-       
-    }
+    
        
     
     .phone{
@@ -1029,10 +1021,8 @@ main span:hover {
             display: none;
         }
         .h1{
-            display: flex;
-            align-content: center;
-            justify-content: center;
-            padding-top: 53vw;
+           
+           /* padding-top: 53vw;*/
         }
            
         
@@ -1086,7 +1076,7 @@ main span:hover {
             color:#ffffff;
         }
        .h1{
-        padding-top: 35vh;
+       /* padding-top: 35vh;*/
        }
         .h1 span{
             font-size: 2.5rem;
@@ -1096,9 +1086,7 @@ main span:hover {
             font-size: 1.5rem;
         }
     
-        main {
-            height: 90vh;
-        }
+        
     
         main img {
             display: none;
@@ -1155,9 +1143,7 @@ main span:hover {
             margin-bottom: 2rem;
             font-size: 1.7rem;
         }
-        #h2Projects{
-            left:31.5%;
-        }
+       
         #myWork{
             padding-bottom: 0rem;
            
@@ -1186,7 +1172,7 @@ main span:hover {
         }
         
         #button {
-            margin-left: 33%;
+            margin:auto;
             width: fit-content;
         }
         #more{
@@ -1213,8 +1199,8 @@ main span:hover {
         }
     
         section#myWork h2 {
-            letter-spacing: 0.5rem;
-            left: -26%;
+           
+            left: -27.5%;
             font-size: 1.8rem;
         }
         #contacts h2{
@@ -1244,11 +1230,9 @@ main span:hover {
                 font-size: 1.6rem;
                 margin-left: 1%;
             }
-            main{
-                height: 90vh;
-            }
+            
             main .h1{
-                padding-top: 34vh;
+               /* padding-top: 34vh;*/
             }
             main >span{
                 margin-left: 0%;
