@@ -125,7 +125,7 @@ div.h1 {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 44%;
+    top: 40%;
     transform: translate(0,-25%);
     font-family: 'Inter', sans-serif;
     font-size: 1.4rem;
