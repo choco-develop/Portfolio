@@ -493,7 +493,7 @@ section#myWork h2 {
 #arrow{
     text-decoration: none;
     opacity: 0.8;
-    font-size:1.6rem;
+    padding: 2%;
     background-color: #65a807;
     position: fixed;
     bottom: 3%;
