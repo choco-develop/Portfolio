@@ -493,7 +493,8 @@ section#myWork h2 {
 #arrow{
     text-decoration: none;
     opacity: 0.8;
-    padding: 2%;
+    padding: 1%;
+    font-size: 1rem;
     background-color: #65a807;
     position: fixed;
     bottom: 3%;
@@ -1311,9 +1312,12 @@ main span:hover {
                 max-width: 100%;
             }
             #contacts h2{
-               
+               font-size: 1.4rem;
              
             }
+        }
+        @media (min-width:1022px){
+
         }
         
         
