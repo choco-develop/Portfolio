@@ -49,7 +49,7 @@ function consoleText(words, id, colors) {
     }
   }, 400)
 }
-window.onload=consoleText(['Hello World!','I am Anita','I build for the web'], 'text',['#ffffff','#ffffff','#ffffff']);
+window.addEventListener('DOMContentLoaded',(consoleText(['Hello World!','I am Anita','I build for the web'], 'text',['#ffffff','#ffffff','#ffffff'])))
 
 
 window.onscroll =() => 
