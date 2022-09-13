@@ -407,29 +407,28 @@ margin-top: 10%;
 
 }
 
-.contain {
-    margin-top: 9rem;
-}
-
 .contain h3 {
     font-size: 1.1rem;
     color: #65a20a;
     padding-bottom: 1rem;
 }
 
-.play {
+/*.play{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: -10rem;
+   
+}*/
+.play{
+    display: none;
 }
 
-.play i {
+/*.play i {
     color: #86c332;
     text-shadow: 1px 1px 1px #86c232;
     font-size: 2rem;
 
-}
+}*/
 
 .links a {
     text-decoration: none;
@@ -760,7 +759,7 @@ main span:hover {
         padding-bottom: 0rem;
     }
     .projects {
-        width: 90%;
+        width: 60%;
         height: 30vh;
         margin: auto;
         margin-bottom: 2rem;
@@ -773,17 +772,9 @@ main span:hover {
     }
     .projects .tools{
       margin: auto;
-    }
-    .play{
-        display: none;
+      margin-top: 3.5%;
     }
     
-    #button {
-        
-          
-            padding: 1rem;
-        
-    }
     #more{
         font-size: 1.3rem;
     }
@@ -813,214 +804,6 @@ main span:hover {
     }
 
 }
-
-/*@media (min-width:481px) and (max-width:600px){
-
-    
-    header,
-    main {
-        max-width: 100%;
-    }
-    header>span{
-        margin-top: 0.5rem;
-        font-size: 1.6rem;
-    }
-    header nav ul {
-        display: none;
-    }
-    
-       
-    
-    .phone{
-        display: inline;
-        color: white;
-        font-size: 1.5rem;
-        margin-top: 0.5rem;
-        margin-left: 10rem;
-        margin-right: -7rem;
-    }
-    .menu.active {
-        display: flex;
-       right: 0%;
-        flex-direction: column;
-        background-color: #25360e;
-        gap: 5%;
-        width: 60%;
-        margin-top:4rem;
-       height: 65vh;
-       animation: myAnim 1s ease 0s infinite alternate backwards;
-    }
-    @keyframes myAnim {
-        0% {
-            transform: scaleX(0.7);
-            transform-origin: 100% 100%;
-        }
-    
-        100% {
-            transform: scaleX(1);
-            transform-origin: 100% 100%;
-        }
-    }
-    
-    .stopScroll.active{
-        height: 100%;
-       overflow: hidden;
-    }
-
-    .menu li{
-       
-        border-bottom:0.1rem  solid  #222629;
-        padding: 0.75rem;
-        text-align: center;
-        font-size: 1.4rem;
-        border-left: none
-    }
-    li a{
-        color:#ffffff;
-    }
-    
-    .h1 span{
-        font-size: 2.5rem;
-    }
-    main>span{
-        margin: auto;
-        font-size: 1.5rem;
-    }
-
-    main {
-        height: 90vh;
-        padding-top: 35vh;
-    }
-
-    main img {
-        display: none;
-    }
-
-    #about {
-        width: 60%;
-        height: 75vh;
-    }
-    #mainAbout{
-        margin-top:-4rem;
-        margin-bottom: -5rem;
-    }
-    #about h2{
-        margin-top: 1rem;
-        font-size: 1.5rem
-    }
-    #about h3{
-        margin-top: 1rem;
-        margin-bottom:1.5rem;
-        font-size: 1.7rem;
-    }
-    
-
-    #describe {
-        max-width: 100%;
-    }
-    #describe a span{
-        font-size: 1.5rem;
-    }
-    
-    #all{
-        margin-top: 13rem;
-    }
-    #ourServices2,
-    #projects2,
-    .blogOptions {
-        display: block;
-    }
-
-    #h2Services {
-        padding-top: 4rem;
-        margin-left:1.5rem ;
-        font-size: 2.0rem;
-    }
-
-    #ourServices2 div {
-        width: 90%;
-        margin: auto;
-        margin-bottom: 2rem;
-        font-size: 1.7rem;
-    }
-    #h2Projects{
-        left:31.5%;
-    }
-    #myWork{
-        padding-bottom: 0rem;
-       
-    }
-    .projects {
-        width: 80%;
-        height: 35vh;
-        margin: auto;
-        margin-bottom: 2rem;
-        
-    }
-    .contain h3{
-        font-size: 1.6rem;
-    }
-    .contain {
-        margin-top: 1rem;
-    }
-    .contain span{
-        font-size: 1.5rem;
-    }
-    .projects .tools span,.projects .links a{
-        font-size: 1.2rem;
-    }
-    .play{
-        display: none;
-    }
-    
-    #button {
-        margin-left: 33%;
-        width: 35%;
-    }
-    #more{
-        font-size: 1.3rem;
-    }
-
-    .blogOptions div {
-        margin: auto;
-        margin-bottom: 2rem;
-        width: 60%;
-        height:15rem ;
-        padding: 2rem 3rem ;
-        
-    }
-
-    #blogs h2 {
-        left: 38%;
-        margin-top: 1rem;
-        letter-spacing: 0.4rem;
-        font-size: 1.8rem;
-    }
-    #blogs a h4{
-        font-size: 1.4rem;
-    }
-
-    section#myWork h2 {
-        letter-spacing: 0.5rem;
-        left: -26%;
-        font-size: 1.8rem;
-    }
-    #contacts h2{
-          font-size: 1.5rem;
-    }
-    #contacts ul i{
-        font-size: 2rem;
-    }
-    footer {
-        max-width: 100%;
-    }
-    footer #copyright{
-      display: flex;
-      justify-content: center;
-      margin-left: 1rem;
-    }
-    }*/
-    
     
 
     @media (min-width:481px) and (max-width:768px){
@@ -1330,8 +1113,12 @@ main span:hover {
             }
         }
         @media (min-width:1022px){
+            
             #about h2,#contacts h2{
               font-size: 1.275rem;
+            }
+            #button {
+                padding: 0.8%;
             }
             
 
