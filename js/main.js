@@ -59,7 +59,7 @@ document.body.scrollTop > 20 || document.documentElement.scrollTop >20 ? documen
 
 function show(){
   const mobile=window.matchMedia('(max-width:480px)')
-  const tab=window.matchMedia(' (max-width:768px')
+  const tab=window.matchMedia(' (max-width:768px)')
   if (mobile.matches || tab.matches){
     if( document.querySelector('#projects').style.display==="none" ){
     document.querySelector('#projects') .style.display ='inline'
@@ -70,7 +70,7 @@ function show(){
     document.querySelector('#more').innerText="See More"
   }
 }
-else{
+else if(!mobile.matches || !tab.matches){
   if( document.querySelector('#projects').style.display==="none" ){
     document.querySelector('#projects') .style.display ='flex'
     document.querySelector('#more').innerText="Less"
