@@ -206,7 +206,7 @@ main>span {
 }
 #about h2 {
     position: relative;
-    left: 7%;
+    right: 34%;
     margin-top: 2rem;
     border-bottom: 0.1vh solid #222629;
 }
@@ -358,6 +358,26 @@ section#myWork h2 {
 .projects#resturant .links a,
 .projects#salon .links a {
     margin-bottom: 0;
+}
+.projects .tools{
+    background-color: #65a20a;
+    margin-top: 10%;
+   
+}
+.projects .tools div{
+   display: flex;
+   justify-content:space-evenly ;
+  
+} 
+.projects .tools div span{
+    font-size: 1.075rem;
+    color: #4f5447;
+}
+.projects .tools>div+div>span+span{
+    margin-left: 18%;
+}
+.projects .links{
+margin-top: 10%;
 }
 
 .projects .tools {
@@ -690,14 +710,6 @@ main span:hover {
         font-size: 1.2rem;
     }
     
-
-
-    main {
-       /* height: 90vh;
-        padding-top: 35vh;*/
-
-    }
-
    
 
     #about {
@@ -749,12 +761,18 @@ main span:hover {
     }
     .projects {
         width: 90%;
-        height: 25vh;
+        height: 30vh;
         margin: auto;
         margin-bottom: 2rem;
     }
     .contain {
         margin-top: 1rem;
+    }
+    .contain>span{
+        margin-bottom: 2%;
+    }
+    .projects .tools{
+      margin: auto;
     }
     .play{
         display: none;
@@ -1019,10 +1037,7 @@ main span:hover {
         header nav ul {
             display: none;
         }
-        .h1{
-           
-           /* padding-top: 53vw;*/
-        }
+        
            
         
         .phone{
@@ -1147,7 +1162,7 @@ main span:hover {
         }
         .projects {
             width: 60%;
-            height: 32vh;
+            height: auto;
             margin: auto;
             margin-bottom: 2rem;
             
@@ -1250,9 +1265,7 @@ main span:hover {
             #ourServices2 div{
                 font-size: 1.8rem;
             }
-            #h2Projects{
             
-            }
             #projects2{
                 margin-top: 4vh;
             }
@@ -1268,7 +1281,7 @@ main span:hover {
                 width: 23vw;
                 height: 45vh;
             }
-            .projects .tools{
+           /* .projects .tools{
                 background-color: #65a20a;
                 margin-top: 10%;
                
@@ -1287,7 +1300,7 @@ main span:hover {
             }
            .projects .links{
             margin-top: 10%;
-           }
+           }*/
            .links a {
             font-size: 1.3rem;
            }
@@ -1317,6 +1330,10 @@ main span:hover {
             }
         }
         @media (min-width:1022px){
+            #about h2,#contacts h2{
+              font-size: 1.275rem;
+            }
+            
 
         }
         
