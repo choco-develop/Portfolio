@@ -315,7 +315,7 @@ section#myWork h2 {
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 #projects {
@@ -355,13 +355,19 @@ section#myWork h2 {
 
 }
 
-.projects#resturant .links a,
+/*.projects#resturant .links a,
 .projects#salon .links a {
     margin-bottom: 0;
-}
+}*/
+
 .projects .tools{
-    background-color: #65a20a;
-    margin-top: 10%;
+    /*background-color: #65a20a;
+    background-color: #4f5447;*/
+    margin-top: 6%;
+    width:80%;
+    margin: auto;
+    padding-top: 2%;
+    margin-top: 6%;
    
 }
 .projects .tools div{
@@ -371,7 +377,8 @@ section#myWork h2 {
 } 
 .projects .tools div span{
     font-size: 1.075rem;
-    color: #4f5447;
+    /*color: #4f5447;*/
+    color: #2b410e;
 }
 .projects .tools>div+div>span+span{
     margin-left: 18%;
@@ -380,9 +387,7 @@ section#myWork h2 {
 margin-top: 10%;
 }
 
-.projects .tools {
-    padding-top: 5%;
-}
+
 
 .projects .tools+.tools {
     border: none;
@@ -445,7 +450,7 @@ margin-top: 10%;
 
 
 #button {
-    padding:2rem;
+    padding:0.7rem;
     background-color: #040404;
     width:fit-content;
     margin: auto;
@@ -456,8 +461,8 @@ margin-top: 10%;
 
 #more {
    
-    color: #86c232;
-    /*box-shadow:0.3rem 0.2rem black ,-0.3rem -0.2rem #61892f;*/
+    color: #ffffff;
+   
     font-size: 1.1rem;
     cursor: pointer;
 }
@@ -592,22 +597,12 @@ main span:hover {
     color: black;
 }
 
-#side li:hover {
-    font-size: 4rem;
-}
 
 #ourServices2 div:hover {
     background-color: #86c232;
     color: black;
 }
 
-.play i:hover {
-    display: none;
-}
-
-.links:hover {
-    background-color: #040404;
-}
 
 
 
@@ -650,7 +645,6 @@ main span:hover {
         display: none;
     }
     
-       
     
     .phone{
         display: inline;
@@ -769,9 +763,9 @@ main span:hover {
     .contain>span{
         margin-bottom: 2%;
     }
-    .projects .tools{
-      margin: auto;
-      margin-top: 3.5%;
+    #alphabet .tools,#ageCalculator .tools{
+        margin-bottom: -11%;
+        margin-top: 6%;
     }
     
     #more{
@@ -957,16 +951,13 @@ main span:hover {
             font-size: 1.075rem;
         }
         .projects .tools span,.projects .links a{
-            font-size: 1rem;
+            font-size: 0.8rem;
         }
         .play{
             display: none;
         }
         
-        #button {
-            margin:auto;
-            width: fit-content;
-        }
+       
         #more{
             font-size: 1.15rem;
         }
@@ -974,7 +965,6 @@ main span:hover {
         .blogOptions div {
             margin: auto;
             margin-bottom: 2rem;
-            width: 60%;
             height:15rem ;
             padding: 2rem 3rem ;
             
@@ -987,7 +977,7 @@ main span:hover {
             font-size: 1.3rem;
         }
         #blogs a h4{
-            font-size: 1.4rem;
+            font-size: 1.2rem;
         }
     
         section#myWork h2 {
@@ -996,7 +986,7 @@ main span:hover {
             font-size: 1.3rem;
         }
         #contacts h2{
-              font-size: 1.5rem;
+              font-size: 1.2rem;
         }
         #contacts ul i{
             font-size: 2rem;
@@ -1061,28 +1051,9 @@ main span:hover {
                 width: 23vw;
                 height: 45vh;
             }
-           /* .projects .tools{
-                background-color: #65a20a;
-                margin-top: 10%;
-               
-            }
-            .projects .tools div{
-               display: flex;
-               justify-content:space-evenly ;
-              
-            } 
-            .projects .tools div span{
-                font-size: 1.075rem;
-                color: #4f5447;
-            }
-            .projects .tools>div+div>span+span{
-                margin-left: 18%;
-            }
-           .projects .links{
-            margin-top: 10%;
-           }*/
+    
            .links a {
-            font-size: 1.3rem;
+            font-size: 1rem;
            }
             .contain{
                 margin-top: -15%;
@@ -1114,9 +1085,7 @@ main span:hover {
             #about h2,#contacts h2{
               font-size: 1.275rem;
             }
-            #button {
-                padding: 0.8%;
-            }
+            
             
 
         }
