@@ -323,7 +323,7 @@ section#myWork h2 {
 }
 
 .projects {
-    border: 0.1vh solid #222629;
+    /*border: 0.1vh solid #222629;*/
     border-radius: 2rem;
     display: grid;
     grid-gap: 3vh;
@@ -332,6 +332,7 @@ section#myWork h2 {
     align-content: center;
     text-align: center;
     margin-bottom: 3%;
+    box-shadow: #1a260a -5px 5px, #21310b -10px 10px,#435f1d -15px 15px,#3d6901  -20px 20px, #65a20a -25px 25px;
     /*box-shadow: 0 3px 10px #a17a69;*/
     /*box-shadow: 0 4px 8px rgba(0,0,0,0.2),0 6px 20px rgba(0,0,0,0.19);*/
     background-color: #101606;
