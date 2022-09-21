@@ -419,22 +419,12 @@ margin-top: 10%;
     padding-bottom: 1rem;
 }
 
-/*.play{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-}*/
+
 .play{
     display: none;
 }
 
-/*.play i {
-    color: #86c332;
-    text-shadow: 1px 1px 1px #86c232;
-    font-size: 2rem;
 
-}*/
 
 .links a {
     text-decoration: none;
@@ -535,19 +525,14 @@ margin-top: 10%;
 
 /****footer*/
 footer {
-    background-color: #040404;
+    /*background-color: #040404;*/
     height: auto;
-    color: #61892f;
+    color: #21310b;
     max-width: 90%;
     margin: auto;
 }
 
-footer h2 {
-    font-size: 0.8rem;
-    text-align: center;
-    border: none;
 
-}
 
 
 footer ul {
