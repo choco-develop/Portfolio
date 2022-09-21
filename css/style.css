@@ -284,14 +284,14 @@ main>span {
 
 /**PROJECTS*/
 section#myWork {
-    /* background-color:#86c232;*/
+   
     width: 90%;
     margin: auto;
-    box-shadow: 0 3px 10px #040404;
+   /* box-shadow: 0 3px 10px #040404;*/
+   box-shadow: -1px 0px 10px #000;
     padding-bottom: 2rem;
 
 }
-
 section#myWork h2 {
     letter-spacing: 1rem;
 
@@ -336,8 +336,6 @@ section#myWork h2 {
     /*box-shadow: 0 3px 10px #a17a69;*/
     /*box-shadow: 0 4px 8px rgba(0,0,0,0.2),0 6px 20px rgba(0,0,0,0.19);*/
     background-color: #101606;
-
-
 
 
 }
@@ -452,6 +450,7 @@ margin-top: 10%;
     justify-content: center;
 }
 
+
 #morexxx{
     display: none;  
 }
@@ -545,8 +544,10 @@ footer ul {
 
     text-align: center;
     margin-left:/* -4rem*/ 0%;
-    color: #86c232;
-
+  
+}
+#copyright i,#copyright span{
+    color: #3b5516;
 }
 
 footer div i {

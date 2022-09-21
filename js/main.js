@@ -52,8 +52,9 @@ function consoleText(words, id, colors) {
 window.addEventListener('DOMContentLoaded',(consoleText(['Hello World!','I am Anita','I build for the web'], 'text',['#ffffff','#ffffff','#ffffff'])))
 
 
-window.onscroll =() => 
-document.body.scrollTop > 20 || document.documentElement.scrollTop >20 ? document.querySelector('#arrow').style.display="block":document.querySelector('#arrow').style.display="none"
+window.onscroll =() => {
+document.body.scrollTop > 25 || document.documentElement.scrollTop >25 ? document.querySelector('#arrow').style.display="block":document.querySelector('#arrow').style.display="none"
+}
 
 
 
@@ -64,10 +65,7 @@ function show(){
     if( document.querySelector('#projects').style.display==="none" ){
     document.querySelector('#projects') .style.display ='inline'
     document.querySelector('#more').style.display="none"
-    document.querySelector('#morexxx').style.display="inline"
-   
-
-   
+    document.querySelector('#morexxx').style.display="inline" 
   }
   else{
     document.querySelector('#projects') .style.display ='none'
