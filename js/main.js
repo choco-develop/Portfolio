@@ -63,27 +63,37 @@ function show(){
   if (mobile.matches || tab.matches){
     if( document.querySelector('#projects').style.display==="none" ){
     document.querySelector('#projects') .style.display ='inline'
-    document.querySelector('#more').innerText="Less"
+    document.querySelector('#more').style.display="none"
+    document.querySelector('#morexxx').style.display="inline"
+   
+
+   
   }
   else{
     document.querySelector('#projects') .style.display ='none'
-    document.querySelector('#more').innerText="See More"
+    document.querySelector('#morexxx').style.display="none"
+    document.querySelector('#more').style.display="inline"
+    
   }
 }
 else if(!mobile.matches || !tab.matches){
   if( document.querySelector('#projects').style.display==="none" ){
     document.querySelector('#projects') .style.display ='flex'
-    document.querySelector('#more').innerText="Less"
+    document.querySelector('#more').style.display="none"
+   document.querySelector('#morexxx').style.display="inline"
+   
   }
   else{
     document.querySelector('#projects') .style.display ='none'
-    document.querySelector('#more').innerText="See More"
+    document.querySelector('#morexxx').style.display="none"
+    document.querySelector('#more').style.display="inline"
+   
   }
 
 }
 
 }
-document.querySelector('#more').addEventListener('click',show)
+document.querySelector('#moreButton').addEventListener('click',show)
 
 
 function showMenu(){

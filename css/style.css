@@ -440,22 +440,20 @@ margin-top: 10%;
 }
 
 
-#button {
-    padding:0.7rem;
-    background-color: #040404;
+#moreButton{
+   /* padding:0.7rem;
+    background-color: #040404;*/
     width:fit-content;
     margin: auto;
-    display: flex;
-    justify-content: center;
-
-}
-
-#more {
-   
-    color: #ffffff;
-   
+    color: #61892f;
     font-size: 1.1rem;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+#morexxx{
+    display: none;  
 }
 
 
